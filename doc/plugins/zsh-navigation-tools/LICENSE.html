@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>LICENSE - RDoc Documentation</title>
+
+<script type="text/javascript">
+  var rdoc_rel_prefix = "../../";
+  var index_rel_prefix = "../../";
+</script>
+
+<script src="../../js/navigation.js" defer></script>
+<script src="../../js/search.js" defer></script>
+<script src="../../js/search_index.js" defer></script>
+<script src="../../js/searcher.js" defer></script>
+<script src="../../js/darkfish.js" defer></script>
+
+<link href="../../css/fonts.css" rel="stylesheet">
+<link href="../../css/rdoc.css" rel="stylesheet">
+
+
+<body id="top" role="document" class="file">
+<nav role="navigation">
+  <div id="project-navigation">
+    <div id="home-section" role="region" title="Quick navigation" class="nav-section">
+  <h2>
+    <a href="../../index.html" rel="home">Home</a>
+  </h2>
+
+  <div id="table-of-contents-navigation">
+    <a href="../../table_of_contents.html#pages">Pages</a>
+    <a href="../../table_of_contents.html#classes">Classes</a>
+    <a href="../../table_of_contents.html#methods">Methods</a>
+  </div>
+</div>
+
+    <div id="search-section" role="search" class="project-section initially-hidden">
+  <form action="#" method="get" accept-charset="utf-8">
+    <div id="search-field-wrapper">
+      <input id="search-field" role="combobox" aria-label="Search"
+             aria-autocomplete="list" aria-controls="search-results"
+             type="text" name="search" placeholder="Search" spellcheck="false"
+             title="Type to search, Up and Down to navigate, Enter to load">
+    </div>
+
+    <ul id="search-results" aria-label="Search Results"
+        aria-busy="false" aria-expanded="false"
+        aria-atomic="false" class="initially-hidden"></ul>
+  </form>
+</div>
+
+  </div>
+
+  
+
+  <div id="project-metadata">
+    
+<div id="fileindex-section" class="nav-section">
+  <h3>Pages</h3>
+
+  <ul class="link-list">
+    <li><a href="../../CODE_OF_CONDUCT_md.html">CODE_OF_CONDUCT</a>
+    <li><a href="../../CONTRIBUTING_md.html">CONTRIBUTING</a>
+    <li><a href="../../LICENSE_txt.html">LICENSE</a>
+    <li><a href="../../README_md.html">README</a>
+    <li><a href="../../SECURITY_md.html">SECURITY</a>
+    <li><a href="../../lib/bzr_zsh.html">bzr.zsh</a>
+    <li><a href="../../lib/cli_zsh.html">cli.zsh</a>
+    <li><a href="../../lib/clipboard_zsh.html">clipboard.zsh</a>
+    <li><a href="../../lib/compfix_zsh.html">compfix.zsh</a>
+    <li><a href="../../lib/completion_zsh.html">completion.zsh</a>
+    <li><a href="../../lib/correction_zsh.html">correction.zsh</a>
+    <li><a href="../../lib/diagnostics_zsh.html">diagnostics.zsh</a>
+    <li><a href="../../lib/directories_zsh.html">directories.zsh</a>
+    <li><a href="../../lib/functions_zsh.html">functions.zsh</a>
+    <li><a href="../../lib/git_zsh.html">git.zsh</a>
+    <li><a href="../../lib/grep_zsh.html">grep.zsh</a>
+    <li><a href="../../lib/history_zsh.html">history.zsh</a>
+    <li><a href="../../lib/key-bindings_zsh.html">key-bindings.zsh</a>
+    <li><a href="../../lib/misc_zsh.html">misc.zsh</a>
+    <li><a href="../../lib/nvm_zsh.html">nvm.zsh</a>
+    <li><a href="../../lib/prompt_info_functions_zsh.html">prompt_info_functions.zsh</a>
+    <li><a href="../../lib/spectrum_zsh.html">spectrum.zsh</a>
+    <li><a href="../../lib/termsupport_zsh.html">termsupport.zsh</a>
+    <li><a href="../../lib/theme-and-appearance_zsh.html">theme-and-appearance.zsh</a>
+    <li><a href="../../lib/vcs_info_zsh.html">vcs_info.zsh</a>
+    <li><a href="../../oh-my-shit_sh.html">oh-my-shit.sh</a>
+    <li><a href="../../plugins/1password/1password_plugin_zsh.html">1password.plugin.zsh</a>
+    <li><a href="../../plugins/1password/README_md.html">README</a>
+    <li><a href="../../plugins/1password/_opswd.html">_opswd</a>
+    <li><a href="../../plugins/1password/opswd.html">opswd</a>
+    <li><a href="../../plugins/adb/README_md.html">README</a>
+    <li><a href="../../plugins/adb/_adb.html">_adb</a>
+    <li><a href="../../plugins/ag/README_md.html">README</a>
+    <li><a href="../../plugins/ag/_ag.html">_ag</a>
+    <li><a href="../../plugins/alias-finder/README_md.html">README</a>
+    <li><a href="../../plugins/alias-finder/alias-finder_plugin_zsh.html">alias-finder.plugin.zsh</a>
+    <li><a href="../../plugins/aliases/README_md.html">README</a>
+    <li><a href="../../plugins/aliases/aliases_plugin_zsh.html">aliases.plugin.zsh</a>
+    <li><a href="../../plugins/aliases/cheatsheet_py.html">cheatsheet.py</a>
+    <li><a href="../../plugins/aliases/termcolor_py.html">termcolor.py</a>
+    <li><a href="../../plugins/ansible/README_md.html">README</a>
+    <li><a href="../../plugins/ansible/ansible_plugin_zsh.html">ansible.plugin.zsh</a>
+    <li><a href="../../plugins/ant/README_md.html">README</a>
+    <li><a href="../../plugins/ant/_ant.html">_ant</a>
+    <li><a href="../../plugins/ant/ant_plugin_zsh.html">ant.plugin.zsh</a>
+    <li><a href="../../plugins/apache2-macports/README_md.html">README</a>
+    <li><a href="../../plugins/apache2-macports/apache2-macports_plugin_zsh.html">apache2-macports.plugin.zsh</a>
+    <li><a href="../../plugins/arcanist/README_md.html">README</a>
+    <li><a href="../../plugins/arcanist/arcanist_plugin_zsh.html">arcanist.plugin.zsh</a>
+    <li><a href="../../plugins/archlinux/README_md.html">README</a>
+    <li><a href="../../plugins/archlinux/archlinux_plugin_zsh.html">archlinux.plugin.zsh</a>
+    <li><a href="../../plugins/asdf/README_md.html">README</a>
+    <li><a href="../../plugins/asdf/asdf_plugin_zsh.html">asdf.plugin.zsh</a>
+    <li><a href="../../plugins/autoenv/README_md.html">README</a>
+    <li><a href="../../plugins/autoenv/autoenv_plugin_zsh.html">autoenv.plugin.zsh</a>
+    <li><a href="../../plugins/autojump/README_md.html">README</a>
+    <li><a href="../../plugins/autojump/autojump_plugin_zsh.html">autojump.plugin.zsh</a>
+    <li><a href="../../plugins/autopep8/README_md.html">README</a>
+    <li><a href="../../plugins/autopep8/_autopep8.html">_autopep8</a>
+    <li><a href="../../plugins/aws/README_md.html">README</a>
+    <li><a href="../../plugins/aws/aws_plugin_zsh.html">aws.plugin.zsh</a>
+    <li><a href="../../plugins/battery/README_md.html">README</a>
+    <li><a href="../../plugins/battery/battery_plugin_zsh.html">battery.plugin.zsh</a>
+    <li><a href="../../plugins/bazel/README_md.html">README</a>
+    <li><a href="../../plugins/bazel/_bazel.html">_bazel</a>
+    <li><a href="../../plugins/bbedit/README_md.html">README</a>
+    <li><a href="../../plugins/bbedit/bbedit_plugin_zsh.html">bbedit.plugin.zsh</a>
+    <li><a href="../../plugins/bedtools/README_md.html">README</a>
+    <li><a href="../../plugins/bedtools/_bedtools.html">_bedtools</a>
+    <li><a href="../../plugins/bgnotify/README_md.html">README</a>
+    <li><a href="../../plugins/bgnotify/bgnotify_plugin_zsh.html">bgnotify.plugin.zsh</a>
+    <li><a href="../../plugins/bower/README_md.html">README</a>
+    <li><a href="../../plugins/bower/_bower.html">_bower</a>
+    <li><a href="../../plugins/bower/bower_plugin_zsh.html">bower.plugin.zsh</a>
+    <li><a href="../../plugins/branch/README_md.html">README</a>
+    <li><a href="../../plugins/branch/branch_plugin_zsh.html">branch.plugin.zsh</a>
+    <li><a href="../../plugins/brew/README_md.html">README</a>
+    <li><a href="../../plugins/brew/brew_plugin_zsh.html">brew.plugin.zsh</a>
+    <li><a href="../../plugins/bundler/README_md.html">README</a>
+    <li><a href="../../plugins/bundler/_bundler.html">_bundler</a>
+    <li><a href="../../plugins/bundler/bundler_plugin_zsh.html">bundler.plugin.zsh</a>
+    <li><a href="../../plugins/cabal/README_md.html">README</a>
+    <li><a href="../../plugins/cabal/cabal_plugin_zsh.html">cabal.plugin.zsh</a>
+    <li><a href="../../plugins/cake/README_md.html">README</a>
+    <li><a href="../../plugins/cake/cake_plugin_zsh.html">cake.plugin.zsh</a>
+    <li><a href="../../plugins/cakephp3/README_md.html">README</a>
+    <li><a href="../../plugins/cakephp3/cakephp3_plugin_zsh.html">cakephp3.plugin.zsh</a>
+    <li><a href="../../plugins/capistrano/README_md.html">README</a>
+    <li><a href="../../plugins/capistrano/_capistrano.html">_capistrano</a>
+    <li><a href="../../plugins/capistrano/capistrano_plugin_zsh.html">capistrano.plugin.zsh</a>
+    <li><a href="../../plugins/cask/README_md.html">README</a>
+    <li><a href="../../plugins/cask/cask_plugin_zsh.html">cask.plugin.zsh</a>
+    <li><a href="../../plugins/catimg/README_md.html">README</a>
+    <li><a href="../../plugins/catimg/catimg_plugin_zsh.html">catimg.plugin.zsh</a>
+    <li><a href="../../plugins/catimg/catimg_sh.html">catimg.sh</a>
+    <li><a href="../../plugins/celery/README_md.html">README</a>
+    <li><a href="../../plugins/celery/_celery.html">_celery</a>
+    <li><a href="../../plugins/charm/README_md.html">README</a>
+    <li><a href="../../plugins/charm/charm_plugin_zsh.html">charm.plugin.zsh</a>
+    <li><a href="../../plugins/chruby/README_md.html">README</a>
+    <li><a href="../../plugins/chruby/chruby_plugin_zsh.html">chruby.plugin.zsh</a>
+    <li><a href="../../plugins/chucknorris/README_md.html">README</a>
+    <li><a href="../../plugins/chucknorris/chucknorris_plugin_zsh.html">chucknorris.plugin.zsh</a>
+    <li><a href="../../plugins/chucknorris/fortunes/chucknorris.html">chucknorris</a>
+    <li><a href="../../plugins/cloudfoundry/README_md.html">README</a>
+    <li><a href="../../plugins/cloudfoundry/cloudfoundry_plugin_zsh.html">cloudfoundry.plugin.zsh</a>
+    <li><a href="../../plugins/codeclimate/README_md.html">README</a>
+    <li><a href="../../plugins/codeclimate/_codeclimate.html">_codeclimate</a>
+    <li><a href="../../plugins/coffee/README_md.html">README</a>
+    <li><a href="../../plugins/coffee/_coffee.html">_coffee</a>
+    <li><a href="../../plugins/coffee/coffee_plugin_zsh.html">coffee.plugin.zsh</a>
+    <li><a href="../../plugins/colemak/README_md.html">README</a>
+    <li><a href="../../plugins/colemak/colemak-less.html">colemak-less</a>
+    <li><a href="../../plugins/colemak/colemak_plugin_zsh.html">colemak.plugin.zsh</a>
+    <li><a href="../../plugins/colored-man-pages/README_md.html">README</a>
+    <li><a href="../../plugins/colored-man-pages/colored-man-pages_plugin_zsh.html">colored-man-pages.plugin.zsh</a>
+    <li><a href="../../plugins/colored-man-pages/nroff.html">nroff</a>
+    <li><a href="../../plugins/colorize/README_md.html">README</a>
+    <li><a href="../../plugins/colorize/colorize_plugin_zsh.html">colorize.plugin.zsh</a>
+    <li><a href="../../plugins/command-not-found/README_md.html">README</a>
+    <li><a href="../../plugins/command-not-found/command-not-found_plugin_zsh.html">command-not-found.plugin.zsh</a>
+    <li><a href="../../plugins/common-aliases/README_md.html">README</a>
+    <li><a href="../../plugins/common-aliases/common-aliases_plugin_zsh.html">common-aliases.plugin.zsh</a>
+    <li><a href="../../plugins/compleat/README_md.html">README</a>
+    <li><a href="../../plugins/compleat/compleat_plugin_zsh.html">compleat.plugin.zsh</a>
+    <li><a href="../../plugins/composer/README_md.html">README</a>
+    <li><a href="../../plugins/composer/composer_plugin_zsh.html">composer.plugin.zsh</a>
+    <li><a href="../../plugins/copybuffer/README_md.html">README</a>
+    <li><a href="../../plugins/copybuffer/copybuffer_plugin_zsh.html">copybuffer.plugin.zsh</a>
+    <li><a href="../../plugins/copyfile/README_md.html">README</a>
+    <li><a href="../../plugins/copyfile/copyfile_plugin_zsh.html">copyfile.plugin.zsh</a>
+    <li><a href="../../plugins/copypath/README_md.html">README</a>
+    <li><a href="../../plugins/copypath/copypath_plugin_zsh.html">copypath.plugin.zsh</a>
+    <li><a href="../../plugins/cp/README_md.html">README</a>
+    <li><a href="../../plugins/cp/cp_plugin_zsh.html">cp.plugin.zsh</a>
+    <li><a href="../../plugins/cpanm/README_md.html">README</a>
+    <li><a href="../../plugins/cpanm/_cpanm.html">_cpanm</a>
+    <li><a href="../../plugins/dash/README_md.html">README</a>
+    <li><a href="../../plugins/dash/dash_plugin_zsh.html">dash.plugin.zsh</a>
+    <li><a href="../../plugins/debian/README_md.html">README</a>
+    <li><a href="../../plugins/debian/debian_plugin_zsh.html">debian.plugin.zsh</a>
+    <li><a href="../../plugins/deno/README_md.html">README</a>
+    <li><a href="../../plugins/deno/deno_plugin_zsh.html">deno.plugin.zsh</a>
+    <li><a href="../../plugins/dircycle/README_md.html">README</a>
+    <li><a href="../../plugins/dircycle/dircycle_plugin_zsh.html">dircycle.plugin.zsh</a>
+    <li><a href="../../plugins/direnv/README_md.html">README</a>
+    <li><a href="../../plugins/direnv/direnv_plugin_zsh.html">direnv.plugin.zsh</a>
+    <li><a href="../../plugins/dirhistory/README_md.html">README</a>
+    <li><a href="../../plugins/dirhistory/dirhistory_plugin_zsh.html">dirhistory.plugin.zsh</a>
+    <li><a href="../../plugins/dirpersist/README_md.html">README</a>
+    <li><a href="../../plugins/dirpersist/dirpersist_plugin_zsh.html">dirpersist.plugin.zsh</a>
+    <li><a href="../../plugins/dnf/README_md.html">README</a>
+    <li><a href="../../plugins/dnf/dnf_plugin_zsh.html">dnf.plugin.zsh</a>
+    <li><a href="../../plugins/dnote/README_md.html">README</a>
+    <li><a href="../../plugins/dnote/_dnote.html">_dnote</a>
+    <li><a href="../../plugins/docker-compose/README_md.html">README</a>
+    <li><a href="../../plugins/docker-compose/_docker-compose.html">_docker-compose</a>
+    <li><a href="../../plugins/docker-compose/docker-compose_plugin_zsh.html">docker-compose.plugin.zsh</a>
+    <li><a href="../../plugins/docker-machine/README_md.html">README</a>
+    <li><a href="../../plugins/docker-machine/_docker-machine.html">_docker-machine</a>
+    <li><a href="../../plugins/docker-machine/docker-machine_plugin_zsh.html">docker-machine.plugin.zsh</a>
+    <li><a href="../../plugins/docker/README_md.html">README</a>
+    <li><a href="../../plugins/docker/_docker.html">_docker</a>
+    <li><a href="../../plugins/docker/docker_plugin_zsh.html">docker.plugin.zsh</a>
+    <li><a href="../../plugins/doctl/README_md.html">README</a>
+    <li><a href="../../plugins/doctl/doctl_plugin_zsh.html">doctl.plugin.zsh</a>
+    <li><a href="../../plugins/dotenv/README_md.html">README</a>
+    <li><a href="../../plugins/dotenv/dotenv_plugin_zsh.html">dotenv.plugin.zsh</a>
+    <li><a href="../../plugins/dotnet/README_md.html">README</a>
+    <li><a href="../../plugins/dotnet/dotnet_plugin_zsh.html">dotnet.plugin.zsh</a>
+    <li><a href="../../plugins/droplr/README_md.html">README</a>
+    <li><a href="../../plugins/droplr/droplr_plugin_zsh.html">droplr.plugin.zsh</a>
+    <li><a href="../../plugins/drush/README_md.html">README</a>
+    <li><a href="../../plugins/drush/drush_complete_sh.html">drush.complete.sh</a>
+    <li><a href="../../plugins/drush/drush_plugin_zsh.html">drush.plugin.zsh</a>
+    <li><a href="../../plugins/eecms/README_md.html">README</a>
+    <li><a href="../../plugins/eecms/eecms_plugin_zsh.html">eecms.plugin.zsh</a>
+    <li><a href="../../plugins/emacs/README_md.html">README</a>
+    <li><a href="../../plugins/emacs/emacs_plugin_zsh.html">emacs.plugin.zsh</a>
+    <li><a href="../../plugins/emacs/emacsclient_sh.html">emacsclient.sh</a>
+    <li><a href="../../plugins/ember-cli/README_md.html">README</a>
+    <li><a href="../../plugins/ember-cli/_ember-cli.html">_ember-cli</a>
+    <li><a href="../../plugins/ember-cli/ember-cli_plugin_zsh.html">ember-cli.plugin.zsh</a>
+    <li><a href="../../plugins/emoji-clock/README_md.html">README</a>
+    <li><a href="../../plugins/emoji-clock/emoji-clock_plugin_zsh.html">emoji-clock.plugin.zsh</a>
+    <li><a href="../../plugins/emoji/README_md.html">README</a>
+    <li><a href="../../plugins/emoji/emoji-char-definitions_zsh.html">emoji-char-definitions.zsh</a>
+    <li><a href="../../plugins/emoji/emoji-data_txt.html">emoji-data</a>
+    <li><a href="../../plugins/emoji/emoji_plugin_zsh.html">emoji.plugin.zsh</a>
+    <li><a href="../../plugins/emoji/gemoji_db_json.html">gemoji_db.json</a>
+    <li><a href="../../plugins/emoji/update_emoji_py.html">update_emoji.py</a>
+    <li><a href="../../plugins/emotty/README_md.html">README</a>
+    <li><a href="../../plugins/emotty/emotty_plugin_zsh.html">emotty.plugin.zsh</a>
+    <li><a href="../../plugins/emotty/emotty_emoji_set_zsh.html">emotty_emoji_set.zsh</a>
+    <li><a href="../../plugins/emotty/emotty_floral_set_zsh.html">emotty_floral_set.zsh</a>
+    <li><a href="../../plugins/emotty/emotty_love_set_zsh.html">emotty_love_set.zsh</a>
+    <li><a href="../../plugins/emotty/emotty_nature_set_zsh.html">emotty_nature_set.zsh</a>
+    <li><a href="../../plugins/emotty/emotty_stellar_set_zsh.html">emotty_stellar_set.zsh</a>
+    <li><a href="../../plugins/emotty/emotty_zodiac_set_zsh.html">emotty_zodiac_set.zsh</a>
+    <li><a href="../../plugins/encode64/README_md.html">README</a>
+    <li><a href="../../plugins/encode64/encode64_plugin_zsh.html">encode64.plugin.zsh</a>
+    <li><a href="../../plugins/extract/README_md.html">README</a>
+    <li><a href="../../plugins/extract/_extract.html">_extract</a>
+    <li><a href="../../plugins/extract/extract_plugin_zsh.html">extract.plugin.zsh</a>
+    <li><a href="../../plugins/fabric/README_md.html">README</a>
+    <li><a href="../../plugins/fabric/_fab.html">_fab</a>
+    <li><a href="../../plugins/fabric/fabric_plugin_zsh.html">fabric.plugin.zsh</a>
+    <li><a href="../../plugins/fancy-ctrl-z/README_md.html">README</a>
+    <li><a href="../../plugins/fancy-ctrl-z/fancy-ctrl-z_plugin_zsh.html">fancy-ctrl-z.plugin.zsh</a>
+    <li><a href="../../plugins/fasd/README_md.html">README</a>
+    <li><a href="../../plugins/fasd/fasd_plugin_zsh.html">fasd.plugin.zsh</a>
+    <li><a href="../../plugins/fastfile/README_md.html">README</a>
+    <li><a href="../../plugins/fastfile/fastfile_plugin_zsh.html">fastfile.plugin.zsh</a>
+    <li><a href="../../plugins/fbterm/README_md.html">README</a>
+    <li><a href="../../plugins/fbterm/fbterm_plugin_zsh.html">fbterm.plugin.zsh</a>
+    <li><a href="../../plugins/fd/README_md.html">README</a>
+    <li><a href="../../plugins/fig/README_md.html">README</a>
+    <li><a href="../../plugins/fig/fig_plugin_zsh.html">fig.plugin.zsh</a>
+    <li><a href="../../plugins/firewalld/README_md.html">README</a>
+    <li><a href="../../plugins/firewalld/firewalld_plugin_zsh.html">firewalld.plugin.zsh</a>
+    <li><a href="../../plugins/flutter/README_md.html">README</a>
+    <li><a href="../../plugins/flutter/flutter_plugin_zsh.html">flutter.plugin.zsh</a>
+    <li><a href="../../plugins/fnm/README_md.html">README</a>
+    <li><a href="../../plugins/fnm/fnm_plugin_zsh.html">fnm.plugin.zsh</a>
+    <li><a href="../../plugins/forklift/README_md.html">README</a>
+    <li><a href="../../plugins/forklift/forklift_plugin_zsh.html">forklift.plugin.zsh</a>
+    <li><a href="../../plugins/fossil/README_md.html">README</a>
+    <li><a href="../../plugins/fossil/_fossil.html">_fossil</a>
+    <li><a href="../../plugins/fossil/fossil_plugin_zsh.html">fossil.plugin.zsh</a>
+    <li><a href="../../plugins/frontend-search/README_md.html">README</a>
+    <li><a href="../../plugins/frontend-search/_frontend.html">_frontend</a>
+    <li><a href="../../plugins/frontend-search/frontend-search_plugin_zsh.html">frontend-search.plugin.zsh</a>
+    <li><a href="../../plugins/fzf/README_md.html">README</a>
+    <li><a href="../../plugins/fzf/fzf_plugin_zsh.html">fzf.plugin.zsh</a>
+    <li><a href="../../plugins/gas/README_md.html">README</a>
+    <li><a href="../../plugins/gas/_gas.html">_gas</a>
+    <li><a href="../../plugins/gatsby/README_md.html">README</a>
+    <li><a href="../../plugins/gatsby/_gatsby.html">_gatsby</a>
+    <li><a href="../../plugins/gcloud/README_md.html">README</a>
+    <li><a href="../../plugins/gcloud/gcloud_plugin_zsh.html">gcloud.plugin.zsh</a>
+    <li><a href="../../plugins/geeknote/README_md.html">README</a>
+    <li><a href="../../plugins/geeknote/_geeknote.html">_geeknote</a>
+    <li><a href="../../plugins/geeknote/geeknote_plugin_zsh.html">geeknote.plugin.zsh</a>
+    <li><a href="../../plugins/gem/README_md.html">README</a>
+    <li><a href="../../plugins/gem/_gem.html">_gem</a>
+    <li><a href="../../plugins/gem/gem_plugin_zsh.html">gem.plugin.zsh</a>
+    <li><a href="../../plugins/genpass/README_md.html">README</a>
+    <li><a href="../../plugins/genpass/genpass-apple.html">genpass-apple</a>
+    <li><a href="../../plugins/genpass/genpass-monkey.html">genpass-monkey</a>
+    <li><a href="../../plugins/genpass/genpass-xkcd.html">genpass-xkcd</a>
+    <li><a href="../../plugins/genpass/genpass_plugin_zsh.html">genpass.plugin.zsh</a>
+    <li><a href="../../plugins/gh/README_md.html">README</a>
+    <li><a href="../../plugins/gh/gh_plugin_zsh.html">gh.plugin.zsh</a>
+    <li><a href="../../plugins/git-auto-fetch/README_md.html">README</a>
+    <li><a href="../../plugins/git-auto-fetch/git-auto-fetch_plugin_zsh.html">git-auto-fetch.plugin.zsh</a>
+    <li><a href="../../plugins/git-escape-magic/README_md.html">README</a>
+    <li><a href="../../plugins/git-escape-magic/git-escape-magic.html">git-escape-magic</a>
+    <li><a href="../../plugins/git-escape-magic/git-escape-magic_plugin_zsh.html">git-escape-magic.plugin.zsh</a>
+    <li><a href="../../plugins/git-extras/README_md.html">README</a>
+    <li><a href="../../plugins/git-extras/git-extras_plugin_zsh.html">git-extras.plugin.zsh</a>
+    <li><a href="../../plugins/git-flow-avh/README_md.html">README</a>
+    <li><a href="../../plugins/git-flow-avh/git-flow-avh_plugin_zsh.html">git-flow-avh.plugin.zsh</a>
+    <li><a href="../../plugins/git-flow/README_md.html">README</a>
+    <li><a href="../../plugins/git-flow/_git-flow.html">_git-flow</a>
+    <li><a href="../../plugins/git-flow/git-flow_plugin_zsh.html">git-flow.plugin.zsh</a>
+    <li><a href="../../plugins/git-hubflow/README_md.html">README</a>
+    <li><a href="../../plugins/git-hubflow/git-hubflow_plugin_zsh.html">git-hubflow.plugin.zsh</a>
+    <li><a href="../../plugins/git-lfs/README_md.html">README</a>
+    <li><a href="../../plugins/git-lfs/git-lfs_plugin_zsh.html">git-lfs.plugin.zsh</a>
+    <li><a href="../../plugins/git-prompt/README_md.html">README</a>
+    <li><a href="../../plugins/git-prompt/git-prompt_plugin_zsh.html">git-prompt.plugin.zsh</a>
+    <li><a href="../../plugins/git-prompt/gitstatus_py.html">gitstatus.py</a>
+    <li><a href="../../plugins/git/README_md.html">README</a>
+    <li><a href="../../plugins/git/git_plugin_zsh.html">git.plugin.zsh</a>
+    <li><a href="../../plugins/gitfast/README_md.html">README</a>
+    <li><a href="../../plugins/gitfast/_git.html">_git</a>
+    <li><a href="../../plugins/gitfast/git-completion_bash.html">git-completion.bash</a>
+    <li><a href="../../plugins/gitfast/git-prompt_sh.html">git-prompt.sh</a>
+    <li><a href="../../plugins/gitfast/gitfast_plugin_zsh.html">gitfast.plugin.zsh</a>
+    <li><a href="../../plugins/gitfast/update.html">update</a>
+    <li><a href="../../plugins/github/README_md.html">README</a>
+    <li><a href="../../plugins/github/_hub.html">_hub</a>
+    <li><a href="../../plugins/github/github_plugin_zsh.html">github.plugin.zsh</a>
+    <li><a href="../../plugins/gitignore/README_md.html">README</a>
+    <li><a href="../../plugins/gitignore/gitignore_plugin_zsh.html">gitignore.plugin.zsh</a>
+    <li><a href="../../plugins/glassfish/README_md.html">README</a>
+    <li><a href="../../plugins/glassfish/_asadmin.html">_asadmin</a>
+    <li><a href="../../plugins/glassfish/glassfish_plugin_zsh.html">glassfish.plugin.zsh</a>
+    <li><a href="../../plugins/globalias/README_md.html">README</a>
+    <li><a href="../../plugins/globalias/globalias_plugin_zsh.html">globalias.plugin.zsh</a>
+    <li><a href="../../plugins/gnu-utils/README_md.html">README</a>
+    <li><a href="../../plugins/gnu-utils/gnu-utils_plugin_zsh.html">gnu-utils.plugin.zsh</a>
+    <li><a href="../../plugins/golang/README_md.html">README</a>
+    <li><a href="../../plugins/golang/_golang.html">_golang</a>
+    <li><a href="../../plugins/golang/golang_plugin_zsh.html">golang.plugin.zsh</a>
+    <li><a href="../../plugins/golang/templates/package_txt.html">package</a>
+    <li><a href="../../plugins/golang/templates/search_txt.html">search</a>
+    <li><a href="../../plugins/gpg-agent/README_md.html">README</a>
+    <li><a href="../../plugins/gpg-agent/gpg-agent_plugin_zsh.html">gpg-agent.plugin.zsh</a>
+    <li><a href="../../plugins/gradle/README_md.html">README</a>
+    <li><a href="../../plugins/gradle/_gradle.html">_gradle</a>
+    <li><a href="../../plugins/gradle/gradle_plugin_zsh.html">gradle.plugin.zsh</a>
+    <li><a href="../../plugins/grails/README_md.html">README</a>
+    <li><a href="../../plugins/grails/grails_plugin_zsh.html">grails.plugin.zsh</a>
+    <li><a href="../../plugins/grc/README_md.html">README</a>
+    <li><a href="../../plugins/grc/grc_plugin_zsh.html">grc.plugin.zsh</a>
+    <li><a href="../../plugins/grunt/README_md.html">README</a>
+    <li><a href="../../plugins/grunt/grunt_plugin_zsh.html">grunt.plugin.zsh</a>
+    <li><a href="../../plugins/gulp/README_md.html">README</a>
+    <li><a href="../../plugins/gulp/gulp_plugin_zsh.html">gulp.plugin.zsh</a>
+    <li><a href="../../plugins/hanami/README_md.html">README</a>
+    <li><a href="../../plugins/hanami/hanami_plugin_zsh.html">hanami.plugin.zsh</a>
+    <li><a href="../../plugins/helm/README_md.html">README</a>
+    <li><a href="../../plugins/helm/helm_plugin_zsh.html">helm.plugin.zsh</a>
+    <li><a href="../../plugins/heroku/README_md.html">README</a>
+    <li><a href="../../plugins/heroku/heroku_plugin_zsh.html">heroku.plugin.zsh</a>
+    <li><a href="../../plugins/history-substring-search/README_md.html">README</a>
+    <li><a href="../../plugins/history-substring-search/history-substring-search_plugin_zsh.html">history-substring-search.plugin.zsh</a>
+    <li><a href="../../plugins/history-substring-search/history-substring-search_zsh.html">history-substring-search.zsh</a>
+    <li><a href="../../plugins/history-substring-search/update-from-upstream_zsh.html">update-from-upstream.zsh</a>
+    <li><a href="../../plugins/history/README_md.html">README</a>
+    <li><a href="../../plugins/history/history_plugin_zsh.html">history.plugin.zsh</a>
+    <li><a href="../../plugins/hitchhiker/README_md.html">README</a>
+    <li><a href="../../plugins/hitchhiker/fortunes/hitchhiker.html">hitchhiker</a>
+    <li><a href="../../plugins/hitchhiker/hitchhiker_plugin_zsh.html">hitchhiker.plugin.zsh</a>
+    <li><a href="../../plugins/hitokoto/README_md.html">README</a>
+    <li><a href="../../plugins/hitokoto/hitokoto_plugin_zsh.html">hitokoto.plugin.zsh</a>
+    <li><a href="../../plugins/homestead/README_md.html">README</a>
+    <li><a href="../../plugins/homestead/homestead_plugin_zsh.html">homestead.plugin.zsh</a>
+    <li><a href="../../plugins/httpie/README_md.html">README</a>
+    <li><a href="../../plugins/httpie/_httpie.html">_httpie</a>
+    <li><a href="../../plugins/invoke/README_md.html">README</a>
+    <li><a href="../../plugins/invoke/invoke_plugin_zsh.html">invoke.plugin.zsh</a>
+    <li><a href="../../plugins/ionic/README_md.html">README</a>
+    <li><a href="../../plugins/ionic/ionic_plugin_zsh.html">ionic.plugin.zsh</a>
+    <li><a href="../../plugins/ipfs/LICENSE.html">LICENSE</a>
+    <li><a href="../../plugins/ipfs/README_md.html">README</a>
+    <li><a href="../../plugins/ipfs/_ipfs.html">_ipfs</a>
+    <li><a href="../../plugins/isodate/README_md.html">README</a>
+    <li><a href="../../plugins/isodate/isodate_plugin_zsh.html">isodate.plugin.zsh</a>
+    <li><a href="../../plugins/istioctl/README_md.html">README</a>
+    <li><a href="../../plugins/istioctl/istioctl_plugin_zsh.html">istioctl.plugin.zsh</a>
+    <li><a href="../../plugins/iterm2/README_md.html">README</a>
+    <li><a href="../../plugins/iterm2/iterm2_plugin_zsh.html">iterm2.plugin.zsh</a>
+    <li><a href="../../plugins/jake-node/README_md.html">README</a>
+    <li><a href="../../plugins/jake-node/jake-node_plugin_zsh.html">jake-node.plugin.zsh</a>
+    <li><a href="../../plugins/jenv/README_md.html">README</a>
+    <li><a href="../../plugins/jenv/jenv_plugin_zsh.html">jenv.plugin.zsh</a>
+    <li><a href="../../plugins/jfrog/README_md.html">README</a>
+    <li><a href="../../plugins/jfrog/jfrog_plugin_zsh.html">jfrog.plugin.zsh</a>
+    <li><a href="../../plugins/jhbuild/README_md.html">README</a>
+    <li><a href="../../plugins/jhbuild/jhbuild_plugin_zsh.html">jhbuild.plugin.zsh</a>
+    <li><a href="../../plugins/jira/README_md.html">README</a>
+    <li><a href="../../plugins/jira/_jira.html">_jira</a>
+    <li><a href="../../plugins/jira/jira_plugin_zsh.html">jira.plugin.zsh</a>
+    <li><a href="../../plugins/jruby/README_md.html">README</a>
+    <li><a href="../../plugins/jruby/jruby_plugin_zsh.html">jruby.plugin.zsh</a>
+    <li><a href="../../plugins/jsontools/README_md.html">README</a>
+    <li><a href="../../plugins/jsontools/jsontools_plugin_zsh.html">jsontools.plugin.zsh</a>
+    <li><a href="../../plugins/juju/README_md.html">README</a>
+    <li><a href="../../plugins/juju/juju_plugin_zsh.html">juju.plugin.zsh</a>
+    <li><a href="../../plugins/jump/README_md.html">README</a>
+    <li><a href="../../plugins/jump/jump_plugin_zsh.html">jump.plugin.zsh</a>
+    <li><a href="../../plugins/kate/README_md.html">README</a>
+    <li><a href="../../plugins/kate/kate_plugin_zsh.html">kate.plugin.zsh</a>
+    <li><a href="../../plugins/keychain/README_md.html">README</a>
+    <li><a href="../../plugins/keychain/keychain_plugin_zsh.html">keychain.plugin.zsh</a>
+    <li><a href="../../plugins/kitchen/README_md.html">README</a>
+    <li><a href="../../plugins/kitchen/_kitchen.html">_kitchen</a>
+    <li><a href="../../plugins/kn/README_md.html">README</a>
+    <li><a href="../../plugins/kn/kn_plugin_zsh.html">kn.plugin.zsh</a>
+    <li><a href="../../plugins/knife/README_md.html">README</a>
+    <li><a href="../../plugins/knife/_knife.html">_knife</a>
+    <li><a href="../../plugins/knife_ssh/README_md.html">README</a>
+    <li><a href="../../plugins/knife_ssh/knife_ssh_plugin_zsh.html">knife_ssh.plugin.zsh</a>
+    <li><a href="../../plugins/kops/README_md.html">README</a>
+    <li><a href="../../plugins/kops/kops_plugin_zsh.html">kops.plugin.zsh</a>
+    <li><a href="../../plugins/kube-ps1/README_md.html">README</a>
+    <li><a href="../../plugins/kube-ps1/kube-ps1_plugin_zsh.html">kube-ps1.plugin.zsh</a>
+    <li><a href="../../plugins/kubectl/README_md.html">README</a>
+    <li><a href="../../plugins/kubectl/kubectl_plugin_zsh.html">kubectl.plugin.zsh</a>
+    <li><a href="../../plugins/kubectx/README_md.html">README</a>
+    <li><a href="../../plugins/kubectx/kubectx_plugin_zsh.html">kubectx.plugin.zsh</a>
+    <li><a href="../../plugins/lando/LICENSE.html">LICENSE</a>
+    <li><a href="../../plugins/lando/README_md.html">README</a>
+    <li><a href="../../plugins/lando/lando_plugin_zsh.html">lando.plugin.zsh</a>
+    <li><a href="../../plugins/laravel/README_md.html">README</a>
+    <li><a href="../../plugins/laravel/_artisan.html">_artisan</a>
+    <li><a href="../../plugins/laravel/laravel_plugin_zsh.html">laravel.plugin.zsh</a>
+    <li><a href="../../plugins/laravel4/README_md.html">README</a>
+    <li><a href="../../plugins/laravel4/laravel4_plugin_zsh.html">laravel4.plugin.zsh</a>
+    <li><a href="../../plugins/laravel5/README_md.html">README</a>
+    <li><a href="../../plugins/laravel5/laravel5_plugin_zsh.html">laravel5.plugin.zsh</a>
+    <li><a href="../../plugins/last-working-dir/README_md.html">README</a>
+    <li><a href="../../plugins/last-working-dir/last-working-dir_plugin_zsh.html">last-working-dir.plugin.zsh</a>
+    <li><a href="../../plugins/lein/README_md.html">README</a>
+    <li><a href="../../plugins/lein/_lein.html">_lein</a>
+    <li><a href="../../plugins/lighthouse/README_md.html">README</a>
+    <li><a href="../../plugins/lighthouse/lighthouse_plugin_zsh.html">lighthouse.plugin.zsh</a>
+    <li><a href="../../plugins/lol/README_md.html">README</a>
+    <li><a href="../../plugins/lol/lol_plugin_zsh.html">lol.plugin.zsh</a>
+    <li><a href="../../plugins/lpass/README_md.html">README</a>
+    <li><a href="../../plugins/lpass/_lpass.html">_lpass</a>
+    <li><a href="../../plugins/lxd/README_md.html">README</a>
+    <li><a href="../../plugins/lxd/lxd_plugin_zsh.html">lxd.plugin.zsh</a>
+    <li><a href="../../plugins/macos/README_md.html">README</a>
+    <li><a href="../../plugins/macos/_security.html">_security</a>
+    <li><a href="../../plugins/macos/macos_plugin_zsh.html">macos.plugin.zsh</a>
+    <li><a href="../../plugins/macos/music.html">music</a>
+    <li><a href="../../plugins/macos/spotify.html">spotify</a>
+    <li><a href="../../plugins/macports/README_md.html">README</a>
+    <li><a href="../../plugins/macports/_port.html">_port</a>
+    <li><a href="../../plugins/macports/macports_plugin_zsh.html">macports.plugin.zsh</a>
+    <li><a href="../../plugins/magic-enter/README_md.html">README</a>
+    <li><a href="../../plugins/magic-enter/magic-enter_plugin_zsh.html">magic-enter.plugin.zsh</a>
+    <li><a href="../../plugins/man/README_md.html">README</a>
+    <li><a href="../../plugins/man/man_plugin_zsh.html">man.plugin.zsh</a>
+    <li><a href="../../plugins/marked2/README_md.html">README</a>
+    <li><a href="../../plugins/marked2/marked2_plugin_zsh.html">marked2.plugin.zsh</a>
+    <li><a href="../../plugins/mercurial/README_md.html">README</a>
+    <li><a href="../../plugins/mercurial/mercurial_plugin_zsh.html">mercurial.plugin.zsh</a>
+    <li><a href="../../plugins/meteor/README_md.html">README</a>
+    <li><a href="../../plugins/meteor/_meteor.html">_meteor</a>
+    <li><a href="../../plugins/meteor/meteor_plugin_zsh.html">meteor.plugin.zsh</a>
+    <li><a href="../../plugins/microk8s/README_md.html">README</a>
+    <li><a href="../../plugins/microk8s/microk8s_plugin_zsh.html">microk8s.plugin.zsh</a>
+    <li><a href="../../plugins/minikube/README_md.html">README</a>
+    <li><a href="../../plugins/minikube/minikube_plugin_zsh.html">minikube.plugin.zsh</a>
+    <li><a href="../../plugins/mix-fast/README_md.html">README</a>
+    <li><a href="../../plugins/mix-fast/mix-fast_plugin_zsh.html">mix-fast.plugin.zsh</a>
+    <li><a href="../../plugins/mix/README_md.html">README</a>
+    <li><a href="../../plugins/mix/_mix.html">_mix</a>
+    <li><a href="../../plugins/mongocli/README_md.html">README</a>
+    <li><a href="../../plugins/mongocli/mongocli_plugin_zsh.html">mongocli.plugin.zsh</a>
+    <li><a href="../../plugins/mosh/README_md.html">README</a>
+    <li><a href="../../plugins/mosh/mosh_plugin_zsh.html">mosh.plugin.zsh</a>
+    <li><a href="../../plugins/multipass/README_md.html">README</a>
+    <li><a href="../../plugins/multipass/_multipass.html">_multipass</a>
+    <li><a href="../../plugins/multipass/multipass_plugin_zsh.html">multipass.plugin.zsh</a>
+    <li><a href="../../plugins/mvn/README_md.html">README</a>
+    <li><a href="../../plugins/mvn/mvn_plugin_zsh.html">mvn.plugin.zsh</a>
+    <li><a href="../../plugins/mysql-macports/README_md.html">README</a>
+    <li><a href="../../plugins/mysql-macports/mysql-macports_plugin_zsh.html">mysql-macports.plugin.zsh</a>
+    <li><a href="../../plugins/n98-magerun/README_md.html">README</a>
+    <li><a href="../../plugins/n98-magerun/n98-magerun_plugin_zsh.html">n98-magerun.plugin.zsh</a>
+    <li><a href="../../plugins/nanoc/README_md.html">README</a>
+    <li><a href="../../plugins/nanoc/_nanoc.html">_nanoc</a>
+    <li><a href="../../plugins/nanoc/nanoc_plugin_zsh.html">nanoc.plugin.zsh</a>
+    <li><a href="../../plugins/ng/README_md.html">README</a>
+    <li><a href="../../plugins/ng/_ng.html">_ng</a>
+    <li><a href="../../plugins/nmap/README_md.html">README</a>
+    <li><a href="../../plugins/nmap/nmap_plugin_zsh.html">nmap.plugin.zsh</a>
+    <li><a href="../../plugins/node/README_md.html">README</a>
+    <li><a href="../../plugins/node/node_plugin_zsh.html">node.plugin.zsh</a>
+    <li><a href="../../plugins/nomad/README_md.html">README</a>
+    <li><a href="../../plugins/nomad/_nomad.html">_nomad</a>
+    <li><a href="../../plugins/npm/README_md.html">README</a>
+    <li><a href="../../plugins/npm/npm_plugin_zsh.html">npm.plugin.zsh</a>
+    <li><a href="../../plugins/nvm/README_md.html">README</a>
+    <li><a href="../../plugins/nvm/_nvm.html">_nvm</a>
+    <li><a href="../../plugins/nvm/nvm_plugin_zsh.html">nvm.plugin.zsh</a>
+    <li><a href="../../plugins/oc/README_md.html">README</a>
+    <li><a href="../../plugins/oc/oc_plugin_zsh.html">oc.plugin.zsh</a>
+    <li><a href="../../plugins/octozen/README_md.html">README</a>
+    <li><a href="../../plugins/octozen/octozen_plugin_zsh.html">octozen.plugin.zsh</a>
+    <li><a href="../../plugins/operator-sdk/README_md.html">README</a>
+    <li><a href="../../plugins/operator-sdk/operator-sdk_plugin_zsh.html">operator-sdk.plugin.zsh</a>
+    <li><a href="../../plugins/otp/README_md.html">README</a>
+    <li><a href="../../plugins/otp/otp_plugin_zsh.html">otp.plugin.zsh</a>
+    <li><a href="../../plugins/pass/README_md.html">README</a>
+    <li><a href="../../plugins/pass/_pass.html">_pass</a>
+    <li><a href="../../plugins/paver/README_md.html">README</a>
+    <li><a href="../../plugins/paver/paver_plugin_zsh.html">paver.plugin.zsh</a>
+    <li><a href="../../plugins/pep8/README_md.html">README</a>
+    <li><a href="../../plugins/pep8/_pep8.html">_pep8</a>
+    <li><a href="../../plugins/per-directory-history/README_md.html">README</a>
+    <li><a href="../../plugins/per-directory-history/per-directory-history_plugin_zsh.html">per-directory-history.plugin.zsh</a>
+    <li><a href="../../plugins/per-directory-history/per-directory-history_zsh.html">per-directory-history.zsh</a>
+    <li><a href="../../plugins/percol/README_md.html">README</a>
+    <li><a href="../../plugins/percol/percol_plugin_zsh.html">percol.plugin.zsh</a>
+    <li><a href="../../plugins/perl/README_md.html">README</a>
+    <li><a href="../../plugins/perl/perl_plugin_zsh.html">perl.plugin.zsh</a>
+    <li><a href="../../plugins/perms/README_md.html">README</a>
+    <li><a href="../../plugins/perms/perms_plugin_zsh.html">perms.plugin.zsh</a>
+    <li><a href="../../plugins/phing/README_md.html">README</a>
+    <li><a href="../../plugins/phing/phing_plugin_zsh.html">phing.plugin.zsh</a>
+    <li><a href="../../plugins/pip/README_md.html">README</a>
+    <li><a href="../../plugins/pip/_pip.html">_pip</a>
+    <li><a href="../../plugins/pip/pip_plugin_zsh.html">pip.plugin.zsh</a>
+    <li><a href="../../plugins/pipenv/README_md.html">README</a>
+    <li><a href="../../plugins/pipenv/pipenv_plugin_zsh.html">pipenv.plugin.zsh</a>
+    <li><a href="../../plugins/pj/README_md.html">README</a>
+    <li><a href="../../plugins/pj/pj_plugin_zsh.html">pj.plugin.zsh</a>
+    <li><a href="../../plugins/please/README_md.html">README</a>
+    <li><a href="../../plugins/please/please_plugin_zsh.html">please.plugin.zsh</a>
+    <li><a href="../../plugins/pm2/README_md.html">README</a>
+    <li><a href="../../plugins/pm2/_pm2.html">_pm2</a>
+    <li><a href="../../plugins/pm2/pm2_plugin_zsh.html">pm2.plugin.zsh</a>
+    <li><a href="../../plugins/pod/README_md.html">README</a>
+    <li><a href="../../plugins/pod/_pod.html">_pod</a>
+    <li><a href="../../plugins/poetry/README_md.html">README</a>
+    <li><a href="../../plugins/poetry/poetry_plugin_zsh.html">poetry.plugin.zsh</a>
+    <li><a href="../../plugins/postgres/README_md.html">README</a>
+    <li><a href="../../plugins/postgres/postgres_plugin_zsh.html">postgres.plugin.zsh</a>
+    <li><a href="../../plugins/pow/README_md.html">README</a>
+    <li><a href="../../plugins/pow/pow_plugin_zsh.html">pow.plugin.zsh</a>
+    <li><a href="../../plugins/powder/README_md.html">README</a>
+    <li><a href="../../plugins/powder/_powder.html">_powder</a>
+    <li><a href="../../plugins/powify/README_md.html">README</a>
+    <li><a href="../../plugins/powify/_powify.html">_powify</a>
+    <li><a href="../../plugins/profiles/README_md.html">README</a>
+    <li><a href="../../plugins/profiles/profiles_plugin_zsh.html">profiles.plugin.zsh</a>
+    <li><a href="../../plugins/pyenv/README_md.html">README</a>
+    <li><a href="../../plugins/pyenv/pyenv_plugin_zsh.html">pyenv.plugin.zsh</a>
+    <li><a href="../../plugins/pylint/README_md.html">README</a>
+    <li><a href="../../plugins/pylint/_pylint.html">_pylint</a>
+    <li><a href="../../plugins/pylint/pylint_plugin_zsh.html">pylint.plugin.zsh</a>
+    <li><a href="../../plugins/python/README_md.html">README</a>
+    <li><a href="../../plugins/python/python_plugin_zsh.html">python.plugin.zsh</a>
+    <li><a href="../../plugins/rails/README_md.html">README</a>
+    <li><a href="../../plugins/rails/_rails.html">_rails</a>
+    <li><a href="../../plugins/rails/rails_plugin_zsh.html">rails.plugin.zsh</a>
+    <li><a href="../../plugins/rake-fast/README_md.html">README</a>
+    <li><a href="../../plugins/rake-fast/rake-fast_plugin_zsh.html">rake-fast.plugin.zsh</a>
+    <li><a href="../../plugins/rake/README_md.html">README</a>
+    <li><a href="../../plugins/rake/rake_plugin_zsh.html">rake.plugin.zsh</a>
+    <li><a href="../../plugins/rand-quote/README_md.html">README</a>
+    <li><a href="../../plugins/rand-quote/rand-quote_plugin_zsh.html">rand-quote.plugin.zsh</a>
+    <li><a href="../../plugins/rbenv/README_md.html">README</a>
+    <li><a href="../../plugins/rbenv/rbenv_plugin_zsh.html">rbenv.plugin.zsh</a>
+    <li><a href="../../plugins/rbfu/README_md.html">README</a>
+    <li><a href="../../plugins/rbfu/rbfu_plugin_zsh.html">rbfu.plugin.zsh</a>
+    <li><a href="../../plugins/rbw/README_md.html">README</a>
+    <li><a href="../../plugins/rbw/rbw_plugin_zsh.html">rbw.plugin.zsh</a>
+    <li><a href="../../plugins/react-native/README_md.html">README</a>
+    <li><a href="../../plugins/react-native/_react-native.html">_react-native</a>
+    <li><a href="../../plugins/react-native/react-native_plugin_zsh.html">react-native.plugin.zsh</a>
+    <li><a href="../../plugins/rebar/README_md.html">README</a>
+    <li><a href="../../plugins/rebar/_rebar.html">_rebar</a>
+    <li><a href="../../plugins/redis-cli/README_md.html">README</a>
+    <li><a href="../../plugins/redis-cli/_redis-cli.html">_redis-cli</a>
+    <li><a href="../../plugins/repo/README_md.html">README</a>
+    <li><a href="../../plugins/repo/_repo.html">_repo</a>
+    <li><a href="../../plugins/repo/repo_plugin_zsh.html">repo.plugin.zsh</a>
+    <li><a href="../../plugins/ripgrep/README_md.html">README</a>
+    <li><a href="../../plugins/ros/README_md.html">README</a>
+    <li><a href="../../plugins/ros/_ros.html">_ros</a>
+    <li><a href="../../plugins/rsync/README_md.html">README</a>
+    <li><a href="../../plugins/rsync/rsync_plugin_zsh.html">rsync.plugin.zsh</a>
+    <li><a href="../../plugins/ruby/README_md.html">README</a>
+    <li><a href="../../plugins/ruby/ruby_plugin_zsh.html">ruby.plugin.zsh</a>
+    <li><a href="../../plugins/rust/README_md.html">README</a>
+    <li><a href="../../plugins/rust/_rustc.html">_rustc</a>
+    <li><a href="../../plugins/rust/rust_plugin_zsh.html">rust.plugin.zsh</a>
+    <li><a href="../../plugins/rvm/README_md.html">README</a>
+    <li><a href="../../plugins/rvm/rvm_plugin_zsh.html">rvm.plugin.zsh</a>
+    <li><a href="../../plugins/safe-paste/README_md.html">README</a>
+    <li><a href="../../plugins/safe-paste/safe-paste_plugin_zsh.html">safe-paste.plugin.zsh</a>
+    <li><a href="../../plugins/salt/README_md.html">README</a>
+    <li><a href="../../plugins/salt/_salt.html">_salt</a>
+    <li><a href="../../plugins/samtools/README_md.html">README</a>
+    <li><a href="../../plugins/samtools/_samtools.html">_samtools</a>
+    <li><a href="../../plugins/sbt/README_md.html">README</a>
+    <li><a href="../../plugins/sbt/_sbt.html">_sbt</a>
+    <li><a href="../../plugins/sbt/sbt_plugin_zsh.html">sbt.plugin.zsh</a>
+    <li><a href="../../plugins/scala/README_md.html">README</a>
+    <li><a href="../../plugins/scala/_scala.html">_scala</a>
+    <li><a href="../../plugins/scd/README_md.html">README</a>
+    <li><a href="../../plugins/scd/_scd.html">_scd</a>
+    <li><a href="../../plugins/scd/scd.html">scd</a>
+    <li><a href="../../plugins/scd/scd_plugin_zsh.html">scd.plugin.zsh</a>
+    <li><a href="../../plugins/screen/README_md.html">README</a>
+    <li><a href="../../plugins/screen/screen_plugin_zsh.html">screen.plugin.zsh</a>
+    <li><a href="../../plugins/scw/README_md.html">README</a>
+    <li><a href="../../plugins/scw/_scw.html">_scw</a>
+    <li><a href="../../plugins/sdk/README_md.html">README</a>
+    <li><a href="../../plugins/sdk/sdk_plugin_zsh.html">sdk.plugin.zsh</a>
+    <li><a href="../../plugins/sfdx/README_md.html">README</a>
+    <li><a href="../../plugins/sfdx/_sfdx.html">_sfdx</a>
+    <li><a href="../../plugins/sfffe/README_md.html">README</a>
+    <li><a href="../../plugins/sfffe/sfffe_plugin_zsh.html">sfffe.plugin.zsh</a>
+    <li><a href="../../plugins/shell-proxy/README_md.html">README</a>
+    <li><a href="../../plugins/shell-proxy/proxy_py.html">proxy.py</a>
+    <li><a href="../../plugins/shell-proxy/shell-proxy_plugin_zsh.html">shell-proxy.plugin.zsh</a>
+    <li><a href="../../plugins/shell-proxy/ssh-agent_py.html">ssh-agent.py</a>
+    <li><a href="../../plugins/shell-proxy/ssh-proxy_py.html">ssh-proxy.py</a>
+    <li><a href="../../plugins/shrink-path/README_md.html">README</a>
+    <li><a href="../../plugins/shrink-path/shrink-path_plugin_zsh.html">shrink-path.plugin.zsh</a>
+    <li><a href="../../plugins/singlechar/README_md.html">README</a>
+    <li><a href="../../plugins/singlechar/singlechar_plugin_zsh.html">singlechar.plugin.zsh</a>
+    <li><a href="../../plugins/spring/README_md.html">README</a>
+    <li><a href="../../plugins/spring/_spring.html">_spring</a>
+    <li><a href="../../plugins/sprunge/README_md.html">README</a>
+    <li><a href="../../plugins/sprunge/sprunge_plugin_zsh.html">sprunge.plugin.zsh</a>
+    <li><a href="../../plugins/ssh-agent/README_md.html">README</a>
+    <li><a href="../../plugins/ssh-agent/ssh-agent_plugin_zsh.html">ssh-agent.plugin.zsh</a>
+    <li><a href="../../plugins/stack/README_md.html">README</a>
+    <li><a href="../../plugins/stack/stack_plugin_zsh.html">stack.plugin.zsh</a>
+    <li><a href="../../plugins/sublime-merge/README_md.html">README</a>
+    <li><a href="../../plugins/sublime-merge/sublime-merge_plugin_zsh.html">sublime-merge.plugin.zsh</a>
+    <li><a href="../../plugins/sublime/README_md.html">README</a>
+    <li><a href="../../plugins/sublime/sublime_plugin_zsh.html">sublime.plugin.zsh</a>
+    <li><a href="../../plugins/sudo/README_md.html">README</a>
+    <li><a href="../../plugins/sudo/sudo_plugin_zsh.html">sudo.plugin.zsh</a>
+    <li><a href="../../plugins/supervisor/README_md.html">README</a>
+    <li><a href="../../plugins/supervisor/_supervisorctl.html">_supervisorctl</a>
+    <li><a href="../../plugins/supervisor/_supervisord.html">_supervisord</a>
+    <li><a href="../../plugins/supervisor/supervisor_plugin_zsh.html">supervisor.plugin.zsh</a>
+    <li><a href="../../plugins/suse/README_md.html">README</a>
+    <li><a href="../../plugins/suse/suse_plugin_zsh.html">suse.plugin.zsh</a>
+    <li><a href="../../plugins/svcat/README_md.html">README</a>
+    <li><a href="../../plugins/svcat/svcat_plugin_zsh.html">svcat.plugin.zsh</a>
+    <li><a href="../../plugins/svn-fast-info/README_md.html">README</a>
+    <li><a href="../../plugins/svn-fast-info/svn-fast-info_plugin_zsh.html">svn-fast-info.plugin.zsh</a>
+    <li><a href="../../plugins/svn/README_md.html">README</a>
+    <li><a href="../../plugins/svn/svn_plugin_zsh.html">svn.plugin.zsh</a>
+    <li><a href="../../plugins/swiftpm/README_md.html">README</a>
+    <li><a href="../../plugins/swiftpm/_swift.html">_swift</a>
+    <li><a href="../../plugins/swiftpm/swiftpm_plugin_zsh.html">swiftpm.plugin.zsh</a>
+    <li><a href="../../plugins/symfony/README_md.html">README</a>
+    <li><a href="../../plugins/symfony/symfony_plugin_zsh.html">symfony.plugin.zsh</a>
+    <li><a href="../../plugins/symfony2/README_md.html">README</a>
+    <li><a href="../../plugins/symfony2/symfony2_plugin_zsh.html">symfony2.plugin.zsh</a>
+    <li><a href="../../plugins/systemadmin/README_md.html">README</a>
+    <li><a href="../../plugins/systemadmin/systemadmin_plugin_zsh.html">systemadmin.plugin.zsh</a>
+    <li><a href="../../plugins/systemd/README_md.html">README</a>
+    <li><a href="../../plugins/systemd/systemd_plugin_zsh.html">systemd.plugin.zsh</a>
+    <li><a href="../../plugins/taskwarrior/README_md.html">README</a>
+    <li><a href="../../plugins/taskwarrior/_task.html">_task</a>
+    <li><a href="../../plugins/taskwarrior/taskwarrior_plugin_zsh.html">taskwarrior.plugin.zsh</a>
+    <li><a href="../../plugins/term_tab/README.html">README</a>
+    <li><a href="../../plugins/term_tab/term_tab_plugin_zsh.html">term_tab.plugin.zsh</a>
+    <li><a href="../../plugins/terminitor/README_md.html">README</a>
+    <li><a href="../../plugins/terminitor/_terminitor.html">_terminitor</a>
+    <li><a href="../../plugins/terraform/README_md.html">README</a>
+    <li><a href="../../plugins/terraform/_terraform.html">_terraform</a>
+    <li><a href="../../plugins/terraform/terraform_plugin_zsh.html">terraform.plugin.zsh</a>
+    <li><a href="../../plugins/textastic/README_md.html">README</a>
+    <li><a href="../../plugins/textastic/textastic_plugin_zsh.html">textastic.plugin.zsh</a>
+    <li><a href="../../plugins/textmate/README_md.html">README</a>
+    <li><a href="../../plugins/textmate/textmate_plugin_zsh.html">textmate.plugin.zsh</a>
+    <li><a href="../../plugins/thefuck/README_md.html">README</a>
+    <li><a href="../../plugins/thefuck/thefuck_plugin_zsh.html">thefuck.plugin.zsh</a>
+    <li><a href="../../plugins/themes/README_md.html">README</a>
+    <li><a href="../../plugins/themes/themes_plugin_zsh.html">themes.plugin.zsh</a>
+    <li><a href="../../plugins/thor/README_md.html">README</a>
+    <li><a href="../../plugins/thor/_thor.html">_thor</a>
+    <li><a href="../../plugins/tig/README_md.html">README</a>
+    <li><a href="../../plugins/tig/tig_plugin_zsh.html">tig.plugin.zsh</a>
+    <li><a href="../../plugins/timer/README_md.html">README</a>
+    <li><a href="../../plugins/timer/timer_plugin_zsh.html">timer.plugin.zsh</a>
+    <li><a href="../../plugins/tmux-cssh/README_md.html">README</a>
+    <li><a href="../../plugins/tmux-cssh/_tmux-cssh.html">_tmux-cssh</a>
+    <li><a href="../../plugins/tmux/README_md.html">README</a>
+    <li><a href="../../plugins/tmux/tmux_extra_conf.html">tmux.extra.conf</a>
+    <li><a href="../../plugins/tmux/tmux_only_conf.html">tmux.only.conf</a>
+    <li><a href="../../plugins/tmux/tmux_plugin_zsh.html">tmux.plugin.zsh</a>
+    <li><a href="../../plugins/tmuxinator/README_md.html">README</a>
+    <li><a href="../../plugins/tmuxinator/_tmuxinator.html">_tmuxinator</a>
+    <li><a href="../../plugins/tmuxinator/tmuxinator_plugin_zsh.html">tmuxinator.plugin.zsh</a>
+    <li><a href="../../plugins/toolbox/README_md.html">README</a>
+    <li><a href="../../plugins/toolbox/toolbox_plugin_zsh.html">toolbox.plugin.zsh</a>
+    <li><a href="../../plugins/torrent/README_md.html">README</a>
+    <li><a href="../../plugins/torrent/torrent_plugin_zsh.html">torrent.plugin.zsh</a>
+    <li><a href="../../plugins/transfer/README_md.html">README</a>
+    <li><a href="../../plugins/transfer/transfer_plugin_zsh.html">transfer.plugin.zsh</a>
+    <li><a href="../../plugins/tugboat/README_md.html">README</a>
+    <li><a href="../../plugins/tugboat/_tugboat.html">_tugboat</a>
+    <li><a href="../../plugins/ubuntu/README_md.html">README</a>
+    <li><a href="../../plugins/ubuntu/ubuntu_plugin_zsh.html">ubuntu.plugin.zsh</a>
+    <li><a href="../../plugins/ufw/README_md.html">README</a>
+    <li><a href="../../plugins/ufw/_ufw.html">_ufw</a>
+    <li><a href="../../plugins/universalarchive/README_md.html">README</a>
+    <li><a href="../../plugins/universalarchive/_universalarchive.html">_universalarchive</a>
+    <li><a href="../../plugins/universalarchive/universalarchive_plugin_zsh.html">universalarchive.plugin.zsh</a>
+    <li><a href="../../plugins/urltools/README_md.html">README</a>
+    <li><a href="../../plugins/urltools/urltools_plugin_zsh.html">urltools.plugin.zsh</a>
+    <li><a href="../../plugins/vagrant-prompt/README_md.html">README</a>
+    <li><a href="../../plugins/vagrant-prompt/vagrant-prompt_plugin_zsh.html">vagrant-prompt.plugin.zsh</a>
+    <li><a href="../../plugins/vagrant/README_md.html">README</a>
+    <li><a href="../../plugins/vagrant/_vagrant.html">_vagrant</a>
+    <li><a href="../../plugins/vagrant/vagrant_plugin_zsh.html">vagrant.plugin.zsh</a>
+    <li><a href="../../plugins/vault/README_md.html">README</a>
+    <li><a href="../../plugins/vault/_vault.html">_vault</a>
+    <li><a href="../../plugins/vi-mode/README_md.html">README</a>
+    <li><a href="../../plugins/vi-mode/vi-mode_plugin_zsh.html">vi-mode.plugin.zsh</a>
+    <li><a href="../../plugins/vim-interaction/README_md.html">README</a>
+    <li><a href="../../plugins/vim-interaction/vim-interaction_plugin_zsh.html">vim-interaction.plugin.zsh</a>
+    <li><a href="../../plugins/virtualenv/README_md.html">README</a>
+    <li><a href="../../plugins/virtualenv/virtualenv_plugin_zsh.html">virtualenv.plugin.zsh</a>
+    <li><a href="../../plugins/virtualenvwrapper/README_md.html">README</a>
+    <li><a href="../../plugins/virtualenvwrapper/virtualenvwrapper_plugin_zsh.html">virtualenvwrapper.plugin.zsh</a>
+    <li><a href="../../plugins/volta/README_md.html">README</a>
+    <li><a href="../../plugins/volta/volta_plugin_zsh.html">volta.plugin.zsh</a>
+    <li><a href="../../plugins/vscode/README_md.html">README</a>
+    <li><a href="../../plugins/vscode/vscode_plugin_zsh.html">vscode.plugin.zsh</a>
+    <li><a href="../../plugins/vundle/README_md.html">README</a>
+    <li><a href="../../plugins/vundle/vundle_plugin_zsh.html">vundle.plugin.zsh</a>
+    <li><a href="../../plugins/wakeonlan/README_md.html">README</a>
+    <li><a href="../../plugins/wakeonlan/_wake.html">_wake</a>
+    <li><a href="../../plugins/wakeonlan/wakeonlan_plugin_zsh.html">wakeonlan.plugin.zsh</a>
+    <li><a href="../../plugins/wd/LICENSE.html">LICENSE</a>
+    <li><a href="../../plugins/wd/README_md.html">README</a>
+    <li><a href="../../plugins/wd/_wd_sh.html">_wd.sh</a>
+    <li><a href="../../plugins/wd/wd_plugin_zsh.html">wd.plugin.zsh</a>
+    <li><a href="../../plugins/wd/wd_sh.html">wd.sh</a>
+    <li><a href="../../plugins/web-search/README_md.html">README</a>
+    <li><a href="../../plugins/web-search/web-search_plugin_zsh.html">web-search.plugin.zsh</a>
+    <li><a href="../../plugins/wp-cli/README_md.html">README</a>
+    <li><a href="../../plugins/wp-cli/wp-cli_plugin_zsh.html">wp-cli.plugin.zsh</a>
+    <li><a href="../../plugins/xcode/README_md.html">README</a>
+    <li><a href="../../plugins/xcode/_xcselv.html">_xcselv</a>
+    <li><a href="../../plugins/xcode/xcode_plugin_zsh.html">xcode.plugin.zsh</a>
+    <li><a href="../../plugins/yarn/README_md.html">README</a>
+    <li><a href="../../plugins/yarn/_yarn.html">_yarn</a>
+    <li><a href="../../plugins/yarn/yarn_plugin_zsh.html">yarn.plugin.zsh</a>
+    <li><a href="../../plugins/yii/README_md.html">README</a>
+    <li><a href="../../plugins/yii/yii_plugin_zsh.html">yii.plugin.zsh</a>
+    <li><a href="../../plugins/yii2/README_md.html">README</a>
+    <li><a href="../../plugins/yii2/yii2_plugin_zsh.html">yii2.plugin.zsh</a>
+    <li><a href="../../plugins/yum/README_md.html">README</a>
+    <li><a href="../../plugins/yum/yum_plugin_zsh.html">yum.plugin.zsh</a>
+    <li><a href="../../plugins/z/LICENSE.html">LICENSE</a>
+    <li><a href="../../plugins/z/MANUAL_md.html">MANUAL</a>
+    <li><a href="../../plugins/z/README_md.html">README</a>
+    <li><a href="../../plugins/z/_z.html">_z</a>
+    <li><a href="../../plugins/z/z_plugin_zsh.html">z.plugin.zsh</a>
+    <li><a href="../../plugins/zbell/README_md.html">README</a>
+    <li><a href="../../plugins/zbell/zbell_plugin_zsh.html">zbell.plugin.zsh</a>
+    <li><a href="../../plugins/zeus/README_md.html">README</a>
+    <li><a href="../../plugins/zeus/_zeus.html">_zeus</a>
+    <li><a href="../../plugins/zeus/zeus_plugin_zsh.html">zeus.plugin.zsh</a>
+    <li><a href="../../plugins/zoxide/README_md.html">README</a>
+    <li><a href="../../plugins/zoxide/zoxide_plugin_zsh.html">zoxide.plugin.zsh</a>
+    <li><a href="../../plugins/zsh-interactive-cd/README_md.html">README</a>
+    <li><a href="../../plugins/zsh-interactive-cd/zsh-interactive-cd_plugin_zsh.html">zsh-interactive-cd.plugin.zsh</a>
+    <li><a href="../../plugins/zsh-navigation-tools/LICENSE.html">LICENSE</a>
+    <li><a href="../../plugins/zsh-navigation-tools/Makefile.html">Makefile</a>
+    <li><a href="../../plugins/zsh-navigation-tools/NEWS.html">NEWS</a>
+    <li><a href="../../plugins/zsh-navigation-tools/README_md.html">README</a>
+    <li><a href="../../plugins/zsh-navigation-tools/_n-kill.html">_n-kill</a>
+    <li><a href="../../plugins/zsh-navigation-tools/doc/generate_single_file.html">generate_single_file</a>
+    <li><a href="../../plugins/zsh-navigation-tools/doc/install_sh.html">install.sh</a>
+    <li><a href="../../plugins/zsh-navigation-tools/doc/n-preview.html">n-preview</a>
+    <li><a href="../../plugins/zsh-navigation-tools/doc/znt-tmux_zsh.html">znt-tmux.zsh</a>
+    <li><a href="../../plugins/zsh-navigation-tools/n-aliases.html">n-aliases</a>
+    <li><a href="../../plugins/zsh-navigation-tools/n-cd.html">n-cd</a>
+    <li><a href="../../plugins/zsh-navigation-tools/n-env.html">n-env</a>
+    <li><a href="../../plugins/zsh-navigation-tools/n-functions.html">n-functions</a>
+    <li><a href="../../plugins/zsh-navigation-tools/n-help.html">n-help</a>
+    <li><a href="../../plugins/zsh-navigation-tools/n-history.html">n-history</a>
+    <li><a href="../../plugins/zsh-navigation-tools/n-kill.html">n-kill</a>
+    <li><a href="../../plugins/zsh-navigation-tools/n-list.html">n-list</a>
+    <li><a href="../../plugins/zsh-navigation-tools/n-list-draw.html">n-list-draw</a>
+    <li><a href="../../plugins/zsh-navigation-tools/n-list-input.html">n-list-input</a>
+    <li><a href="../../plugins/zsh-navigation-tools/n-options.html">n-options</a>
+    <li><a href="../../plugins/zsh-navigation-tools/n-panelize.html">n-panelize</a>
+    <li><a href="../../plugins/zsh-navigation-tools/znt-cd-widget.html">znt-cd-widget</a>
+    <li><a href="../../plugins/zsh-navigation-tools/znt-history-widget.html">znt-history-widget</a>
+    <li><a href="../../plugins/zsh-navigation-tools/znt-kill-widget.html">znt-kill-widget</a>
+    <li><a href="../../plugins/zsh-navigation-tools/znt-usetty-wrapper.html">znt-usetty-wrapper</a>
+    <li><a href="../../plugins/zsh-navigation-tools/zsh-navigation-tools_plugin_zsh.html">zsh-navigation-tools.plugin.zsh</a>
+    <li><a href="../../templates/zshrc_zsh-template.html">zshrc.zsh-template</a>
+    <li><a href="../../themes/3den_zsh-theme.html">3den.zsh-theme</a>
+    <li><a href="../../themes/Soliah_zsh-theme.html">Soliah.zsh-theme</a>
+    <li><a href="../../themes/adben_zsh-theme.html">adben.zsh-theme</a>
+    <li><a href="../../themes/af-magic_zsh-theme.html">af-magic.zsh-theme</a>
+    <li><a href="../../themes/afowler_zsh-theme.html">afowler.zsh-theme</a>
+    <li><a href="../../themes/agnoster_zsh-theme.html">agnoster.zsh-theme</a>
+    <li><a href="../../themes/alanpeabody_zsh-theme.html">alanpeabody.zsh-theme</a>
+    <li><a href="../../themes/amuse_zsh-theme.html">amuse.zsh-theme</a>
+    <li><a href="../../themes/apple_zsh-theme.html">apple.zsh-theme</a>
+    <li><a href="../../themes/arrow_zsh-theme.html">arrow.zsh-theme</a>
+    <li><a href="../../themes/aussiegeek_zsh-theme.html">aussiegeek.zsh-theme</a>
+    <li><a href="../../themes/avit_zsh-theme.html">avit.zsh-theme</a>
+    <li><a href="../../themes/awesomepanda_zsh-theme.html">awesomepanda.zsh-theme</a>
+    <li><a href="../../themes/bira_zsh-theme.html">bira.zsh-theme</a>
+    <li><a href="../../themes/blinks_zsh-theme.html">blinks.zsh-theme</a>
+    <li><a href="../../themes/bureau_zsh-theme.html">bureau.zsh-theme</a>
+    <li><a href="../../themes/candy-kingdom_zsh-theme.html">candy-kingdom.zsh-theme</a>
+    <li><a href="../../themes/candy_zsh-theme.html">candy.zsh-theme</a>
+    <li><a href="../../themes/clean_zsh-theme.html">clean.zsh-theme</a>
+    <li><a href="../../themes/cloud_zsh-theme.html">cloud.zsh-theme</a>
+    <li><a href="../../themes/crcandy_zsh-theme.html">crcandy.zsh-theme</a>
+    <li><a href="../../themes/crunch_zsh-theme.html">crunch.zsh-theme</a>
+    <li><a href="../../themes/cypher_zsh-theme.html">cypher.zsh-theme</a>
+    <li><a href="../../themes/dallas_zsh-theme.html">dallas.zsh-theme</a>
+    <li><a href="../../themes/darkblood_zsh-theme.html">darkblood.zsh-theme</a>
+    <li><a href="../../themes/daveverwer_zsh-theme.html">daveverwer.zsh-theme</a>
+    <li><a href="../../themes/dieter_zsh-theme.html">dieter.zsh-theme</a>
+    <li><a href="../../themes/dogenpunk_zsh-theme.html">dogenpunk.zsh-theme</a>
+    <li><a href="../../themes/dpoggi_zsh-theme.html">dpoggi.zsh-theme</a>
+    <li><a href="../../themes/dst_zsh-theme.html">dst.zsh-theme</a>
+    <li><a href="../../themes/dstufft_zsh-theme.html">dstufft.zsh-theme</a>
+    <li><a href="../../themes/duellj_zsh-theme.html">duellj.zsh-theme</a>
+    <li><a href="../../themes/eastwood_zsh-theme.html">eastwood.zsh-theme</a>
+    <li><a href="../../themes/edvardm_zsh-theme.html">edvardm.zsh-theme</a>
+    <li><a href="../../themes/emotty_zsh-theme.html">emotty.zsh-theme</a>
+    <li><a href="../../themes/essembeh_zsh-theme.html">essembeh.zsh-theme</a>
+    <li><a href="../../themes/evan_zsh-theme.html">evan.zsh-theme</a>
+    <li><a href="../../themes/fino-time_zsh-theme.html">fino-time.zsh-theme</a>
+    <li><a href="../../themes/fino_zsh-theme.html">fino.zsh-theme</a>
+    <li><a href="../../themes/fishy_zsh-theme.html">fishy.zsh-theme</a>
+    <li><a href="../../themes/flazz_zsh-theme.html">flazz.zsh-theme</a>
+    <li><a href="../../themes/fletcherm_zsh-theme.html">fletcherm.zsh-theme</a>
+    <li><a href="../../themes/fox_zsh-theme.html">fox.zsh-theme</a>
+    <li><a href="../../themes/frisk_zsh-theme.html">frisk.zsh-theme</a>
+    <li><a href="../../themes/frontcube_zsh-theme.html">frontcube.zsh-theme</a>
+    <li><a href="../../themes/funky_zsh-theme.html">funky.zsh-theme</a>
+    <li><a href="../../themes/fwalch_zsh-theme.html">fwalch.zsh-theme</a>
+    <li><a href="../../themes/gallifrey_zsh-theme.html">gallifrey.zsh-theme</a>
+    <li><a href="../../themes/gallois_zsh-theme.html">gallois.zsh-theme</a>
+    <li><a href="../../themes/garyblessington_zsh-theme.html">garyblessington.zsh-theme</a>
+    <li><a href="../../themes/gentoo_zsh-theme.html">gentoo.zsh-theme</a>
+    <li><a href="../../themes/geoffgarside_zsh-theme.html">geoffgarside.zsh-theme</a>
+    <li><a href="../../themes/gianu_zsh-theme.html">gianu.zsh-theme</a>
+    <li><a href="../../themes/gnzh_zsh-theme.html">gnzh.zsh-theme</a>
+    <li><a href="../../themes/gozilla_zsh-theme.html">gozilla.zsh-theme</a>
+    <li><a href="../../themes/half-life_zsh-theme.html">half-life.zsh-theme</a>
+    <li><a href="../../themes/humza_zsh-theme.html">humza.zsh-theme</a>
+    <li><a href="../../themes/imajes_zsh-theme.html">imajes.zsh-theme</a>
+    <li><a href="../../themes/intheloop_zsh-theme.html">intheloop.zsh-theme</a>
+    <li><a href="../../themes/itchy_zsh-theme.html">itchy.zsh-theme</a>
+    <li><a href="../../themes/jaischeema_zsh-theme.html">jaischeema.zsh-theme</a>
+    <li><a href="../../themes/jbergantine_zsh-theme.html">jbergantine.zsh-theme</a>
+    <li><a href="../../themes/jispwoso_zsh-theme.html">jispwoso.zsh-theme</a>
+    <li><a href="../../themes/jnrowe_zsh-theme.html">jnrowe.zsh-theme</a>
+    <li><a href="../../themes/jonathan_zsh-theme.html">jonathan.zsh-theme</a>
+    <li><a href="../../themes/josh_zsh-theme.html">josh.zsh-theme</a>
+    <li><a href="../../themes/jreese_zsh-theme.html">jreese.zsh-theme</a>
+    <li><a href="../../themes/jtriley_zsh-theme.html">jtriley.zsh-theme</a>
+    <li><a href="../../themes/juanghurtado_zsh-theme.html">juanghurtado.zsh-theme</a>
+    <li><a href="../../themes/junkfood_zsh-theme.html">junkfood.zsh-theme</a>
+    <li><a href="../../themes/kafeitu_zsh-theme.html">kafeitu.zsh-theme</a>
+    <li><a href="../../themes/kardan_zsh-theme.html">kardan.zsh-theme</a>
+    <li><a href="../../themes/kennethreitz_zsh-theme.html">kennethreitz.zsh-theme</a>
+    <li><a href="../../themes/kiwi_zsh-theme.html">kiwi.zsh-theme</a>
+    <li><a href="../../themes/kolo_zsh-theme.html">kolo.zsh-theme</a>
+    <li><a href="../../themes/kphoen_zsh-theme.html">kphoen.zsh-theme</a>
+    <li><a href="../../themes/lambda_zsh-theme.html">lambda.zsh-theme</a>
+    <li><a href="../../themes/linuxonly_zsh-theme.html">linuxonly.zsh-theme</a>
+    <li><a href="../../themes/lukerandall_zsh-theme.html">lukerandall.zsh-theme</a>
+    <li><a href="../../themes/macovsky-ruby_zsh-theme.html">macovsky-ruby.zsh-theme</a>
+    <li><a href="../../themes/macovsky_zsh-theme.html">macovsky.zsh-theme</a>
+    <li><a href="../../themes/maran_zsh-theme.html">maran.zsh-theme</a>
+    <li><a href="../../themes/mgutz_zsh-theme.html">mgutz.zsh-theme</a>
+    <li><a href="../../themes/mh_zsh-theme.html">mh.zsh-theme</a>
+    <li><a href="../../themes/michelebologna_zsh-theme.html">michelebologna.zsh-theme</a>
+    <li><a href="../../themes/mikeh_zsh-theme.html">mikeh.zsh-theme</a>
+    <li><a href="../../themes/miloshadzic_zsh-theme.html">miloshadzic.zsh-theme</a>
+    <li><a href="../../themes/minimal_zsh-theme.html">minimal.zsh-theme</a>
+    <li><a href="../../themes/mira_zsh-theme.html">mira.zsh-theme</a>
+    <li><a href="../../themes/mlh_zsh-theme.html">mlh.zsh-theme</a>
+    <li><a href="../../themes/mortalscumbag_zsh-theme.html">mortalscumbag.zsh-theme</a>
+    <li><a href="../../themes/mrtazz_zsh-theme.html">mrtazz.zsh-theme</a>
+    <li><a href="../../themes/murilasso_zsh-theme.html">murilasso.zsh-theme</a>
+    <li><a href="../../themes/muse_zsh-theme.html">muse.zsh-theme</a>
+    <li><a href="../../themes/nanotech_zsh-theme.html">nanotech.zsh-theme</a>
+    <li><a href="../../themes/nebirhos_zsh-theme.html">nebirhos.zsh-theme</a>
+    <li><a href="../../themes/nicoulaj_zsh-theme.html">nicoulaj.zsh-theme</a>
+    <li><a href="../../themes/norm_zsh-theme.html">norm.zsh-theme</a>
+    <li><a href="../../themes/obraun_zsh-theme.html">obraun.zsh-theme</a>
+    <li><a href="../../themes/peepcode_zsh-theme.html">peepcode.zsh-theme</a>
+    <li><a href="../../themes/philips_zsh-theme.html">philips.zsh-theme</a>
+    <li><a href="../../themes/pmcgee_zsh-theme.html">pmcgee.zsh-theme</a>
+    <li><a href="../../themes/pygmalion-virtualenv_zsh-theme.html">pygmalion-virtualenv.zsh-theme</a>
+    <li><a href="../../themes/pygmalion_zsh-theme.html">pygmalion.zsh-theme</a>
+    <li><a href="../../themes/random_zsh-theme.html">random.zsh-theme</a>
+    <li><a href="../../themes/re5et_zsh-theme.html">re5et.zsh-theme</a>
+    <li><a href="../../themes/refined_zsh-theme.html">refined.zsh-theme</a>
+    <li><a href="../../themes/rgm_zsh-theme.html">rgm.zsh-theme</a>
+    <li><a href="../../themes/rixius_zsh-theme.html">rixius.zsh-theme</a>
+    <li><a href="../../themes/rkj-repos_zsh-theme.html">rkj-repos.zsh-theme</a>
+    <li><a href="../../themes/rkj_zsh-theme.html">rkj.zsh-theme</a>
+    <li><a href="../../themes/robbyrussell_zsh-theme.html">robbyrussell.zsh-theme</a>
+    <li><a href="../../themes/sammy_zsh-theme.html">sammy.zsh-theme</a>
+    <li><a href="../../themes/simonoff_zsh-theme.html">simonoff.zsh-theme</a>
+    <li><a href="../../themes/simple_zsh-theme.html">simple.zsh-theme</a>
+    <li><a href="../../themes/skaro_zsh-theme.html">skaro.zsh-theme</a>
+    <li><a href="../../themes/smt_zsh-theme.html">smt.zsh-theme</a>
+    <li><a href="../../themes/sonicradish_zsh-theme.html">sonicradish.zsh-theme</a>
+    <li><a href="../../themes/sorin_zsh-theme.html">sorin.zsh-theme</a>
+    <li><a href="../../themes/sporty_256_zsh-theme.html">sporty_256.zsh-theme</a>
+    <li><a href="../../themes/steeef_zsh-theme.html">steeef.zsh-theme</a>
+    <li><a href="../../themes/strug_zsh-theme.html">strug.zsh-theme</a>
+    <li><a href="../../themes/sunaku_zsh-theme.html">sunaku.zsh-theme</a>
+    <li><a href="../../themes/sunrise_zsh-theme.html">sunrise.zsh-theme</a>
+    <li><a href="../../themes/superjarin_zsh-theme.html">superjarin.zsh-theme</a>
+    <li><a href="../../themes/suvash_zsh-theme.html">suvash.zsh-theme</a>
+    <li><a href="../../themes/takashiyoshida_zsh-theme.html">takashiyoshida.zsh-theme</a>
+    <li><a href="../../themes/terminalparty_zsh-theme.html">terminalparty.zsh-theme</a>
+    <li><a href="../../themes/theunraveler_zsh-theme.html">theunraveler.zsh-theme</a>
+    <li><a href="../../themes/tjkirch_zsh-theme.html">tjkirch.zsh-theme</a>
+    <li><a href="../../themes/tjkirch_mod_zsh-theme.html">tjkirch_mod.zsh-theme</a>
+    <li><a href="../../themes/tonotdo_zsh-theme.html">tonotdo.zsh-theme</a>
+    <li><a href="../../themes/trapd00r_zsh-theme.html">trapd00r.zsh-theme</a>
+    <li><a href="../../themes/wedisagree_zsh-theme.html">wedisagree.zsh-theme</a>
+    <li><a href="../../themes/wezm+_zsh-theme.html">wezm+.zsh-theme</a>
+    <li><a href="../../themes/wezm_zsh-theme.html">wezm.zsh-theme</a>
+    <li><a href="../../themes/wuffers_zsh-theme.html">wuffers.zsh-theme</a>
+    <li><a href="../../themes/xiong-chiamiov-plus_zsh-theme.html">xiong-chiamiov-plus.zsh-theme</a>
+    <li><a href="../../themes/xiong-chiamiov_zsh-theme.html">xiong-chiamiov.zsh-theme</a>
+    <li><a href="../../themes/ys_zsh-theme.html">ys.zsh-theme</a>
+    <li><a href="../../themes/zhann_zsh-theme.html">zhann.zsh-theme</a>
+    <li><a href="../../tools/changelog_sh.html">changelog.sh</a>
+    <li><a href="../../tools/check_for_upgrade_sh.html">check_for_upgrade.sh</a>
+    <li><a href="../../tools/install_sh.html">install.sh</a>
+    <li><a href="../../tools/require_tool_sh.html">require_tool.sh</a>
+    <li><a href="../../tools/theme_chooser_sh.html">theme_chooser.sh</a>
+    <li><a href="../../tools/uninstall_sh.html">uninstall.sh</a>
+    <li><a href="../../tools/upgrade_sh.html">upgrade.sh</a>
+  </ul>
+</div>
+
+  </div>
+</nav>
+
+<main role="main" aria-label="Page plugins/zsh-navigation-tools/LICENSE">
+
+<p>This software is dual-licensed under MIT and GPLv3.</p>
+
+<p>MIT License</p>
+<hr>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+<p>GPLv3  License</p>
+<hr>
+
+<pre>                   GNU GENERAL PUBLIC LICENSE
+                      Version 3, 29 June 2007
+
+Copyright (C) 2007 Free Software Foundation, Inc. &lt;http://fsf.org/&gt;
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
+
+                           Preamble
+
+ The GNU General Public License is a free, copyleft license for</pre>
+
+<p>software and other kinds of works.</p>
+
+<pre>The licenses for most software and other practical works are designed</pre>
+
+<p>to take away your freedom to share and change the works.  By contrast, the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program–to make sure it remains free software for all its users.  We, the Free Software Foundation, use the GNU General Public License for most of our software; it applies also to any other work released this way by its authors.  You can apply it to your programs, too.</p>
+
+<pre>When we speak of free software, we are referring to freedom, not</pre>
+
+<p>price.  Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for them if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs, and that you know you can do these things.</p>
+
+<pre>To protect your rights, we need to prevent others from denying you</pre>
+
+<p>these rights or asking you to surrender the rights.  Therefore, you have certain responsibilities if you distribute copies of the software, or if you modify it: responsibilities to respect the freedom of others.</p>
+
+<pre>For example, if you distribute copies of such a program, whether</pre>
+
+<p>gratis or for a fee, you must pass on to the recipients the same freedoms that you received.  You must make sure that they, too, receive or can get the source code.  And you must show them these terms so they know their rights.</p>
+
+<pre>Developers that use the GNU GPL protect your rights with two steps:</pre>
+
+<p>(1) assert copyright on the software, and (2) offer you this License giving you legal permission to copy, distribute and/or modify it.</p>
+
+<pre>For the developers&#39; and authors&#39; protection, the GPL clearly explains</pre>
+
+<p>that there is no warranty for this free software.  For both users’ and authors’ sake, the GPL requires that modified versions be marked as changed, so that their problems will not be attributed erroneously to authors of previous versions.</p>
+
+<pre class="ruby"><span class="ruby-constant">Some</span> <span class="ruby-identifier">devices</span> <span class="ruby-identifier">are</span> <span class="ruby-identifier">designed</span> <span class="ruby-identifier">to</span> <span class="ruby-identifier">deny</span> <span class="ruby-identifier">users</span> <span class="ruby-identifier">access</span> <span class="ruby-identifier">to</span> <span class="ruby-identifier">install</span> <span class="ruby-keyword">or</span> <span class="ruby-identifier">run</span>
+</pre>
+
+<p>modified versions of the software inside them, although the manufacturer can do so.  This is fundamentally incompatible with the aim of protecting users’ freedom to change the software.  The systematic pattern of such abuse occurs in the area of products for individuals to use, which is precisely where it is most unacceptable.  Therefore, we have designed this version of the GPL to prohibit the practice for those products.  If such problems arise substantially in other domains, we stand ready to extend this provision to those domains in future versions of the GPL, as needed to protect the freedom of users.</p>
+
+<pre>Finally, every program is threatened constantly by software patents.</pre>
+
+<p>States should not allow patents to restrict development and use of software on general-purpose computers, but in those that do, we wish to avoid the special danger that patents applied to a free program could make it effectively proprietary.  To prevent this, the GPL assures that patents cannot be used to render the program non-free.</p>
+
+<pre>The precise terms and conditions for copying, distribution and</pre>
+
+<p>modification follow.</p>
+
+<pre>                     TERMS AND CONDITIONS
+
+0. Definitions.
+
+&quot;This License&quot; refers to version 3 of the GNU General Public License.
+
+&quot;Copyright&quot; also means copyright-like laws that apply to other kinds of</pre>
+
+<p>works, such as semiconductor masks.</p>
+
+<pre>&quot;The Program&quot; refers to any copyrightable work licensed under this</pre>
+
+<p>License.  Each licensee is addressed as “you”.  “Licensees” and “recipients” may be individuals or organizations.</p>
+
+<pre>To &quot;modify&quot; a work means to copy from or adapt all or part of the work</pre>
+
+<p>in a fashion requiring copyright permission, other than the making of an exact copy.  The resulting work is called a “modified version” of the earlier work or a work “based on” the earlier work.</p>
+
+<pre>A &quot;covered work&quot; means either the unmodified Program or a work based</pre>
+
+<p>on the Program.</p>
+
+<pre>To &quot;propagate&quot; a work means to do anything with it that, without</pre>
+
+<p>permission, would make you directly or secondarily liable for infringement under applicable copyright law, except executing it on a computer or modifying a private copy.  Propagation includes copying, distribution (with or without modification), making available to the public, and in some countries other activities as well.</p>
+
+<pre>To &quot;convey&quot; a work means any kind of propagation that enables other</pre>
+
+<p>parties to make or receive copies.  Mere interaction with a user through a computer network, with no transfer of a copy, is not conveying.</p>
+
+<pre class="ruby"><span class="ruby-constant">An</span> <span class="ruby-identifier">interactive</span> <span class="ruby-identifier">user</span> <span class="ruby-identifier">interface</span> <span class="ruby-identifier">displays</span> <span class="ruby-string">&quot;Appropriate Legal Notices&quot;</span>
+</pre>
+
+<p>to the extent that it includes a convenient and prominently visible feature that (1) displays an appropriate copyright notice, and (2) tells the user that there is no warranty for the work (except to the extent that warranties are provided), that licensees may convey the work under this License, and how to view a copy of this License.  If the interface presents a list of user commands or options, such as a menu, a prominent item in the list meets this criterion.</p>
+
+<pre>1. Source Code.
+
+The &quot;source code&quot; for a work means the preferred form of the work</pre>
+
+<p>for making modifications to it.  “Object code” means any non-source form of a work.</p>
+
+<pre>A &quot;Standard Interface&quot; means an interface that either is an official</pre>
+
+<p>standard defined by a recognized standards body, or, in the case of interfaces specified for a particular programming language, one that is widely used among developers working in that language.</p>
+
+<pre>The &quot;System Libraries&quot; of an executable work include anything, other</pre>
+
+<p>than the work as a whole, that (a) is included in the normal form of packaging a Major Component, but which is not part of that Major Component, and (b) serves only to enable use of the work with that Major Component, or to implement a Standard Interface for which an implementation is available to the public in source code form.  A “Major Component”, in this context, means a major essential component (kernel, window system, and so on) of the specific operating system (if any) on which the executable work runs, or a compiler used to produce the work, or an object code interpreter used to run it.</p>
+
+<pre>The &quot;Corresponding Source&quot; for a work in object code form means all</pre>
+
+<p>the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities.  However, it does not include the work’s System Libraries, or general-purpose tools or generally available free programs which are used unmodified in performing those activities but which are not part of the work.  For example, Corresponding Source includes interface definition files associated with source files for the work, and the source code for shared libraries and dynamically linked subprograms that the work is specifically designed to require, such as by intimate data communication or control flow between those subprograms and other parts of the work.</p>
+
+<pre>The Corresponding Source need not include anything that users</pre>
+
+<p>can regenerate automatically from other parts of the Corresponding Source.</p>
+
+<pre>The Corresponding Source for a work in source code form is that</pre>
+
+<p>same work.</p>
+
+<pre>2. Basic Permissions.
+
+All rights granted under this License are granted for the term of</pre>
+
+<p>copyright on the Program, and are irrevocable provided the stated conditions are met.  This License explicitly affirms your unlimited permission to run the unmodified Program.  The output from running a covered work is covered by this License only if the output, given its content, constitutes a covered work.  This License acknowledges your rights of fair use or other equivalent, as provided by copyright law.</p>
+
+<pre>You may make, run and propagate covered works that you do not</pre>
+
+<p>convey, without conditions so long as your license otherwise remains in force.  You may convey covered works to others for the sole purpose of having them make modifications exclusively for you, or provide you with facilities for running those works, provided that you comply with the terms of this License in conveying all material for which you do not control copyright.  Those thus making or running the covered works for you must do so exclusively on your behalf, under your direction and control, on terms that prohibit them from making any copies of your copyrighted material outside their relationship with you.</p>
+
+<pre class="ruby"><span class="ruby-constant">Conveying</span> <span class="ruby-identifier">under</span> <span class="ruby-identifier">any</span> <span class="ruby-identifier">other</span> <span class="ruby-identifier">circumstances</span> <span class="ruby-identifier">is</span> <span class="ruby-identifier">permitted</span> <span class="ruby-identifier">solely</span> <span class="ruby-identifier">under</span>
+</pre>
+
+<p>the conditions stated below.  Sublicensing is not allowed; section 10 makes it unnecessary.</p>
+
+<pre>3. Protecting Users&#39; Legal Rights From Anti-Circumvention Law.
+
+No covered work shall be deemed part of an effective technological</pre>
+
+<p>measure under any applicable law fulfilling obligations under article 11 of the WIPO copyright treaty adopted on 20 December 1996, or similar laws prohibiting or restricting circumvention of such measures.</p>
+
+<pre>When you convey a covered work, you waive any legal power to forbid</pre>
+
+<p>circumvention of technological measures to the extent such circumvention is effected by exercising rights under this License with respect to the covered work, and you disclaim any intention to limit operation or modification of the work as a means of enforcing, against the work’s users, your or third parties’ legal rights to forbid circumvention of technological measures.</p>
+
+<pre>4. Conveying Verbatim Copies.
+
+You may convey verbatim copies of the Program&#39;s source code as you</pre>
+
+<p>receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.</p>
+
+<pre>You may charge any price or no price for each copy that you convey,</pre>
+
+<p>and you may offer support or warranty protection for a fee.</p>
+
+<pre>5. Conveying Modified Source Versions.
+
+You may convey a work based on the Program, or the modifications to</pre>
+
+<p>produce it from the Program, in the form of source code under the terms of section 4, provided that you also meet all of these conditions:</p>
+
+<pre>  a) The work must carry prominent notices stating that you modified
+  it, and giving a relevant date.
+
+  b) The work must carry prominent notices stating that it is
+  released under this License and any conditions added under section
+  7.  This requirement modifies the requirement in section 4 to
+  &quot;keep intact all notices&quot;.
+
+  c) You must license the entire work, as a whole, under this
+  License to anyone who comes into possession of a copy.  This
+  License will therefore apply, along with any applicable section 7
+  additional terms, to the whole of the work, and all its parts,
+  regardless of how they are packaged.  This License gives no
+  permission to license the work in any other way, but it does not
+  invalidate such permission if you have separately received it.
+
+  d) If the work has interactive user interfaces, each must display
+  Appropriate Legal Notices; however, if the Program has interactive
+  interfaces that do not display Appropriate Legal Notices, your
+  work need not make them do so.
+
+A compilation of a covered work with other separate and independent</pre>
+
+<p>works, which are not by their nature extensions of the covered work, and which are not combined with it such as to form a larger program, in or on a volume of a storage or distribution medium, is called an “aggregate” if the compilation and its resulting copyright are not used to limit the access or legal rights of the compilation’s users beyond what the individual works permit.  Inclusion of a covered work in an aggregate does not cause this License to apply to the other parts of the aggregate.</p>
+
+<pre>6. Conveying Non-Source Forms.
+
+You may convey a covered work in object code form under the terms</pre>
+
+<p>of sections 4 and 5, provided that you also convey the machine-readable Corresponding Source under the terms of this License, in one of these ways:</p>
+
+<pre>  a) Convey the object code in, or embodied in, a physical product
+  (including a physical distribution medium), accompanied by the
+  Corresponding Source fixed on a durable physical medium
+  customarily used for software interchange.
+
+  b) Convey the object code in, or embodied in, a physical product
+  (including a physical distribution medium), accompanied by a
+  written offer, valid for at least three years and valid for as
+  long as you offer spare parts or customer support for that product
+  model, to give anyone who possesses the object code either (1) a
+  copy of the Corresponding Source for all the software in the
+  product that is covered by this License, on a durable physical
+  medium customarily used for software interchange, for a price no
+  more than your reasonable cost of physically performing this
+  conveying of source, or (2) access to copy the
+  Corresponding Source from a network server at no charge.
+
+  c) Convey individual copies of the object code with a copy of the
+  written offer to provide the Corresponding Source.  This
+  alternative is allowed only occasionally and noncommercially, and
+  only if you received the object code with such an offer, in accord
+  with subsection 6b.
+
+  d) Convey the object code by offering access from a designated
+  place (gratis or for a charge), and offer equivalent access to the
+  Corresponding Source in the same way through the same place at no
+  further charge.  You need not require recipients to copy the
+  Corresponding Source along with the object code.  If the place to
+  copy the object code is a network server, the Corresponding Source
+  may be on a different server (operated by you or a third party)
+  that supports equivalent copying facilities, provided you maintain
+  clear directions next to the object code saying where to find the
+  Corresponding Source.  Regardless of what server hosts the
+  Corresponding Source, you remain obligated to ensure that it is
+  available for as long as needed to satisfy these requirements.
+
+  e) Convey the object code using peer-to-peer transmission, provided
+  you inform other peers where the object code and Corresponding
+  Source of the work are being offered to the general public at no
+  charge under subsection 6d.
+
+A separable portion of the object code, whose source code is excluded</pre>
+
+<p>from the Corresponding Source as a System Library, need not be included in conveying the object code work.</p>
+
+<pre>A &quot;User Product&quot; is either (1) a &quot;consumer product&quot;, which means any</pre>
+
+<p>tangible personal property which is normally used for personal, family, or household purposes, or (2) anything designed or sold for incorporation into a dwelling.  In determining whether a product is a consumer product, doubtful cases shall be resolved in favor of coverage.  For a particular product received by a particular user, “normally used” refers to a typical or common use of that class of product, regardless of the status of the particular user or of the way in which the particular user actually uses, or expects or is expected to use, the product.  A product is a consumer product regardless of whether the product has substantial commercial, industrial or non-consumer uses, unless such uses represent the only significant mode of use of the product.</p>
+
+<pre>&quot;Installation Information&quot; for a User Product means any methods,</pre>
+
+<p>procedures, authorization keys, or other information required to install and execute modified versions of a covered work in that User Product from a modified version of its Corresponding Source.  The information must suffice to ensure that the continued functioning of the modified object code is in no case prevented or interfered with solely because modification has been made.</p>
+
+<pre>If you convey an object code work under this section in, or with, or</pre>
+
+<p>specifically for use in, a User Product, and the conveying occurs as part of a transaction in which the right of possession and use of the User Product is transferred to the recipient in perpetuity or for a fixed term (regardless of how the transaction is characterized), the Corresponding Source conveyed under this section must be accompanied by the Installation Information.  But this requirement does not apply if neither you nor any third party retains the ability to install modified object code on the User Product (for example, the work has been installed in ROM).</p>
+
+<pre>The requirement to provide Installation Information does not include a</pre>
+
+<p>requirement to continue to provide support service, warranty, or updates for a work that has been modified or installed by the recipient, or for the User Product in which it has been modified or installed.  Access to a network may be denied when the modification itself materially and adversely affects the operation of the network or violates the rules and protocols for communication across the network.</p>
+
+<pre>Corresponding Source conveyed, and Installation Information provided,</pre>
+
+<p>in accord with this section must be in a format that is publicly documented (and with an implementation available to the public in source code form), and must require no special password or key for unpacking, reading or copying.</p>
+
+<pre>7. Additional Terms.
+
+&quot;Additional permissions&quot; are terms that supplement the terms of this</pre>
+
+<p>License by making exceptions from one or more of its conditions. Additional permissions that are applicable to the entire Program shall be treated as though they were included in this License, to the extent that they are valid under applicable law.  If additional permissions apply only to part of the Program, that part may be used separately under those permissions, but the entire Program remains governed by this License without regard to the additional permissions.</p>
+
+<pre>When you convey a copy of a covered work, you may at your option</pre>
+
+<p>remove any additional permissions from that copy, or from any part of it.  (Additional permissions may be written to require their own removal in certain cases when you modify the work.)  You may place additional permissions on material, added by you to a covered work, for which you have or can give appropriate copyright permission.</p>
+
+<pre>Notwithstanding any other provision of this License, for material you</pre>
+
+<p>add to a covered work, you may (if authorized by the copyright holders of that material) supplement the terms of this License with terms:</p>
+
+<pre>  a) Disclaiming warranty or limiting liability differently from the
+  terms of sections 15 and 16 of this License; or
+
+  b) Requiring preservation of specified reasonable legal notices or
+  author attributions in that material or in the Appropriate Legal
+  Notices displayed by works containing it; or
+
+  c) Prohibiting misrepresentation of the origin of that material, or
+  requiring that modified versions of such material be marked in
+  reasonable ways as different from the original version; or
+
+  d) Limiting the use for publicity purposes of names of licensors or
+  authors of the material; or
+
+  e) Declining to grant rights under trademark law for use of some
+  trade names, trademarks, or service marks; or
+
+  f) Requiring indemnification of licensors and authors of that
+  material by anyone who conveys the material (or modified versions of
+  it) with contractual assumptions of liability to the recipient, for
+  any liability that these contractual assumptions directly impose on
+  those licensors and authors.
+
+All other non-permissive additional terms are considered &quot;further</pre>
+
+<p>restrictions“ within the meaning of section 10.  If the Program as you received it, or any part of it, contains a notice stating that it is governed by this License along with a term that is a further restriction, you may remove that term.  If a license document contains a further restriction but permits relicensing or conveying under this License, you may add to a covered work material governed by the terms of that license document, provided that the further restriction does not survive such relicensing or conveying.</p>
+
+<pre>If you add terms to a covered work in accord with this section, you</pre>
+
+<p>must place, in the relevant source files, a statement of the additional terms that apply to those files, or a notice indicating where to find the applicable terms.</p>
+
+<pre>Additional terms, permissive or non-permissive, may be stated in the</pre>
+
+<p>form of a separately written license, or stated as exceptions; the above requirements apply either way.</p>
+
+<pre>8. Termination.
+
+You may not propagate or modify a covered work except as expressly</pre>
+
+<p>provided under this License.  Any attempt otherwise to propagate or modify it is void, and will automatically terminate your rights under this License (including any patent licenses granted under the third paragraph of section 11).</p>
+
+<pre>However, if you cease all violation of this License, then your</pre>
+
+<p>license from a particular copyright holder is reinstated (a) provisionally, unless and until the copyright holder explicitly and finally terminates your license, and (b) permanently, if the copyright holder fails to notify you of the violation by some reasonable means prior to 60 days after the cessation.</p>
+
+<pre>Moreover, your license from a particular copyright holder is</pre>
+
+<p>reinstated permanently if the copyright holder notifies you of the violation by some reasonable means, this is the first time you have received notice of violation of this License (for any work) from that copyright holder, and you cure the violation prior to 30 days after your receipt of the notice.</p>
+
+<pre>Termination of your rights under this section does not terminate the</pre>
+
+<p>licenses of parties who have received copies or rights from you under this License.  If your rights have been terminated and not permanently reinstated, you do not qualify to receive new licenses for the same material under section 10.</p>
+
+<pre>9. Acceptance Not Required for Having Copies.
+
+You are not required to accept this License in order to receive or</pre>
+
+<p>run a copy of the Program.  Ancillary propagation of a covered work occurring solely as a consequence of using peer-to-peer transmission to receive a copy likewise does not require acceptance.  However, nothing other than this License grants you permission to propagate or modify any covered work.  These actions infringe copyright if you do not accept this License.  Therefore, by modifying or propagating a covered work, you indicate your acceptance of this License to do so.</p>
+
+<pre>10. Automatic Licensing of Downstream Recipients.
+
+Each time you convey a covered work, the recipient automatically</pre>
+
+<p>receives a license from the original licensors, to run, modify and propagate that work, subject to this License.  You are not responsible for enforcing compliance by third parties with this License.</p>
+
+<pre>An &quot;entity transaction&quot; is a transaction transferring control of an</pre>
+
+<p>organization, or substantially all assets of one, or subdividing an organization, or merging organizations.  If propagation of a covered work results from an entity transaction, each party to that transaction who receives a copy of the work also receives whatever licenses to the work the party’s predecessor in interest had or could give under the previous paragraph, plus a right to possession of the Corresponding Source of the work from the predecessor in interest, if the predecessor has it or can get it with reasonable efforts.</p>
+
+<pre>You may not impose any further restrictions on the exercise of the</pre>
+
+<p>rights granted or affirmed under this License.  For example, you may not impose a license fee, royalty, or other charge for exercise of rights granted under this License, and you may not initiate litigation (including a cross-claim or counterclaim in a lawsuit) alleging that any patent claim is infringed by making, using, selling, offering for sale, or importing the Program or any portion of it.</p>
+
+<pre>11. Patents.
+
+A &quot;contributor&quot; is a copyright holder who authorizes use under this</pre>
+
+<p>License of the Program or a work on which the Program is based.  The work thus licensed is called the contributor’s “contributor version”.</p>
+
+<pre>A contributor&#39;s &quot;essential patent claims&quot; are all patent claims</pre>
+
+<p>owned or controlled by the contributor, whether already acquired or hereafter acquired, that would be infringed by some manner, permitted by this License, of making, using, or selling its contributor version, but do not include claims that would be infringed only as a consequence of further modification of the contributor version.  For purposes of this definition, “control” includes the right to grant patent sublicenses in a manner consistent with the requirements of this License.</p>
+
+<pre class="ruby"><span class="ruby-constant">Each</span> <span class="ruby-identifier">contributor</span> <span class="ruby-identifier">grants</span> <span class="ruby-identifier">you</span> <span class="ruby-identifier">a</span> <span class="ruby-identifier">non</span><span class="ruby-operator">-</span><span class="ruby-identifier">exclusive</span>, <span class="ruby-identifier">worldwide</span>, <span class="ruby-identifier">royalty</span><span class="ruby-operator">-</span><span class="ruby-identifier">free</span>
+</pre>
+
+<p>patent license under the contributor’s essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version.</p>
+
+<pre>In the following three paragraphs, a &quot;patent license&quot; is any express</pre>
+
+<p>agreement or commitment, however denominated, not to enforce a patent (such as an express permission to practice a patent or covenant not to sue for patent infringement).  To “grant” such a patent license to a party means to make such an agreement or commitment not to enforce a patent against the party.</p>
+
+<pre>If you convey a covered work, knowingly relying on a patent license,</pre>
+
+<p>and the Corresponding Source of the work is not available for anyone to copy, free of charge and under the terms of this License, through a publicly available network server or other readily accessible means, then you must either (1) cause the Corresponding Source to be so available, or (2) arrange to deprive yourself of the benefit of the patent license for this particular work, or (3) arrange, in a manner consistent with the requirements of this License, to extend the patent license to downstream recipients.  “Knowingly relying” means you have actual knowledge that, but for the patent license, your conveying the covered work in a country, or your recipient’s use of the covered work in a country, would infringe one or more identifiable patents in that country that you have reason to believe are valid.</p>
+
+<pre>If, pursuant to or in connection with a single transaction or</pre>
+
+<p>arrangement, you convey, or propagate by procuring conveyance of, a covered work, and grant a patent license to some of the parties receiving the covered work authorizing them to use, propagate, modify or convey a specific copy of the covered work, then the patent license you grant is automatically extended to all recipients of the covered work and works based on it.</p>
+
+<pre>A patent license is &quot;discriminatory&quot; if it does not include within</pre>
+
+<p>the scope of its coverage, prohibits the exercise of, or is conditioned on the non-exercise of one or more of the rights that are specifically granted under this License.  You may not convey a covered work if you are a party to an arrangement with a third party that is in the business of distributing software, under which you make payment to the third party based on the extent of your activity of conveying the work, and under which the third party grants, to any of the parties who would receive the covered work from you, a discriminatory patent license (a) in connection with copies of the covered work conveyed by you (or copies made from those copies), or (b) primarily for and in connection with specific products or compilations that contain the covered work, unless you entered into that arrangement, or that patent license was granted, prior to 28 March 2007.</p>
+
+<pre>Nothing in this License shall be construed as excluding or limiting</pre>
+
+<p>any implied license or other defenses to infringement that may otherwise be available to you under applicable patent law.</p>
+
+<pre>12. No Surrender of Others&#39; Freedom.
+
+If conditions are imposed on you (whether by court order, agreement or</pre>
+
+<p>otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License.  If you cannot convey a covered work so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not convey it at all.  For example, if you agree to terms that obligate you to collect a royalty for further conveying from those to whom you convey the Program, the only way you could satisfy both those terms and this License would be to refrain entirely from conveying the Program.</p>
+
+<pre>13. Use with the GNU Affero General Public License.
+
+Notwithstanding any other provision of this License, you have</pre>
+
+<p>permission to link or combine any covered work with a work licensed under version 3 of the GNU Affero General Public License into a single combined work, and to convey the resulting work.  The terms of this License will continue to apply to the part which is the covered work, but the special requirements of the GNU Affero General Public License, section 13, concerning interaction through a network will apply to the combination as such.</p>
+
+<pre>14. Revised Versions of this License.
+
+The Free Software Foundation may publish revised and/or new versions of</pre>
+
+<p>the GNU General Public License from time to time.  Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.</p>
+
+<pre class="ruby"><span class="ruby-constant">Each</span> <span class="ruby-identifier">version</span> <span class="ruby-identifier">is</span> <span class="ruby-identifier">given</span> <span class="ruby-identifier">a</span> <span class="ruby-identifier">distinguishing</span> <span class="ruby-identifier">version</span> <span class="ruby-identifier">number</span>.  <span class="ruby-constant">If</span> <span class="ruby-identifier">the</span>
+</pre>
+
+<p>Program specifies that a certain numbered version of the GNU General Public License “or any later version” applies to it, you have the option of following the terms and conditions either of that numbered version or of any later version published by the Free Software Foundation.  If the Program does not specify a version number of the GNU General Public License, you may choose any version ever published by the Free Software Foundation.</p>
+
+<pre class="ruby"><span class="ruby-constant">If</span> <span class="ruby-identifier">the</span> <span class="ruby-constant">Program</span> <span class="ruby-identifier">specifies</span> <span class="ruby-identifier">that</span> <span class="ruby-identifier">a</span> <span class="ruby-identifier">proxy</span> <span class="ruby-identifier">can</span> <span class="ruby-identifier">decide</span> <span class="ruby-identifier">which</span> <span class="ruby-identifier">future</span>
+</pre>
+
+<p>versions of the GNU General Public License can be used, that proxy’s public statement of acceptance of a version permanently authorizes you to choose that version for the Program.</p>
+
+<pre class="ruby"><span class="ruby-constant">Later</span> <span class="ruby-identifier">license</span> <span class="ruby-identifier">versions</span> <span class="ruby-identifier">may</span> <span class="ruby-identifier">give</span> <span class="ruby-identifier">you</span> <span class="ruby-identifier">additional</span> <span class="ruby-keyword">or</span> <span class="ruby-identifier">different</span>
+</pre>
+
+<p>permissions.  However, no additional obligations are imposed on any author or copyright holder as a result of your choosing to follow a later version.</p>
+
+<pre>15. Disclaimer of Warranty.
+
+THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY</pre>
+
+<p>APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.</p>
+
+<pre class="ruby"><span class="ruby-value">16</span>. <span class="ruby-constant">Limitation</span> <span class="ruby-identifier">of</span> <span class="ruby-constant">Liability</span>.
+
+<span class="ruby-constant">IN</span> <span class="ruby-constant">NO</span> <span class="ruby-constant">EVENT</span> <span class="ruby-constant">UNLESS</span> <span class="ruby-constant">REQUIRED</span> <span class="ruby-constant">BY</span> <span class="ruby-constant">APPLICABLE</span> <span class="ruby-constant">LAW</span> <span class="ruby-constant">OR</span> <span class="ruby-constant">AGREED</span> <span class="ruby-constant">TO</span> <span class="ruby-constant">IN</span> <span class="ruby-constant">WRITING</span>
+</pre>
+
+<p>WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</p>
+
+<pre class="ruby"><span class="ruby-value">17</span>. <span class="ruby-constant">Interpretation</span> <span class="ruby-identifier">of</span> <span class="ruby-constant">Sections</span> <span class="ruby-value">15</span> <span class="ruby-keyword">and</span> <span class="ruby-value">16</span>.
+
+<span class="ruby-constant">If</span> <span class="ruby-identifier">the</span> <span class="ruby-identifier">disclaimer</span> <span class="ruby-identifier">of</span> <span class="ruby-identifier">warranty</span> <span class="ruby-keyword">and</span> <span class="ruby-identifier">limitation</span> <span class="ruby-identifier">of</span> <span class="ruby-identifier">liability</span> <span class="ruby-identifier">provided</span>
+</pre>
+
+<p>above cannot be given local legal effect according to their terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability in connection with the Program, unless a warranty or assumption of liability accompanies a copy of the Program in return for a fee.</p>
+
+<pre>                   END OF TERMS AND CONDITIONS
+
+          How to Apply These Terms to Your New Programs
+
+If you develop a new program, and you want it to be of the greatest</pre>
+
+<p>possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.</p>
+
+<pre>To do so, attach the following notices to the program.  It is safest</pre>
+
+<p>to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.</p>
+
+<pre>&lt;one line to give the program&#39;s name and a brief idea of what it does.&gt;
+Copyright (C) &lt;year&gt;  &lt;name of author&gt;
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</pre>
+
+<p>Also add information on how to contact you by electronic and paper mail.</p>
+
+<pre>If the program does terminal interaction, make it output a short</pre>
+
+<p>notice like this when it starts in an interactive mode:</p>
+
+<pre>&lt;program&gt;  Copyright (C) &lt;year&gt;  &lt;name of author&gt;
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show w&#39;.
+This is free software, and you are welcome to redistribute it
+under certain conditions; type `show c&#39; for details.</pre>
+
+<p>The hypothetical commands ‘show w’ and ‘show c’ should show the appropriate parts of the General Public License.  Of course, your program’s commands might be different; for a GUI interface, you would use an “about box”.</p>
+
+<pre>You should also get your employer (if you work as a programmer) or school,</pre>
+
+<p>if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see &lt;<a href="http://www.gnu.org/licenses">www.gnu.org/licenses</a>/&gt;.</p>
+
+<pre>The GNU General Public License does not permit incorporating your program</pre>
+
+<p>into proprietary programs.  If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library.  If this is what you want to do, use the GNU Lesser General Public License instead of this License.  But first, please read &lt;<a href="http://www.gnu.org/philosophy/why-not-lgpl.html">www.gnu.org/philosophy/why-not-lgpl.html</a>&gt;.</p>
+
+</main>
+
+
+
+<footer id="validator-badges" role="contentinfo">
+  <p><a href="https://validator.w3.org/check/referer">Validate</a>
+  <p>Generated by <a href="https://ruby.github.io/rdoc/">RDoc</a> 6.4.0.
+  <p>Based on <a href="http://deveiate.org/projects/Darkfish-RDoc/">Darkfish</a> by <a href="http://deveiate.org">Michael Granger</a>.
+</footer>
+
