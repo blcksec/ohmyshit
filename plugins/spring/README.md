@@ -1,5 +1,5 @@
-# Spring Boot oh-my-zsh plugin
-oh-my-zsh Spring Boot plugin
+# Spring Boot oh-my-shit plugin
+oh-my-shit Spring Boot plugin
 
 ## Spring Boot autocomplete plugin
 
@@ -7,8 +7,8 @@ oh-my-zsh Spring Boot plugin
 
 ## Manual Install
 
-     $ cd ~/.oh-my-zsh/plugins
-     $ git clone git@github.com:linux-china/oh-my-zsh-spring-boot-plugin.git spring
+     $ cd ~/.oh-my-shit/plugins
+     $ git clone git@github.com:linux-china/oh-my-shit-spring-boot-plugin.git spring
 
 Adjust your .zshrc file and add spring to plugins=(...)
 

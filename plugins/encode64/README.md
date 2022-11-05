@@ -22,18 +22,18 @@ plugins=(... encode64)
 - From parameter
 
   ```console
-  $ encode64 "oh-my-zsh"
+  $ encode64 "oh-my-shit"
   b2gtbXktenNo
-  $ e64 "oh-my-zsh"
+  $ e64 "oh-my-shit"
   b2gtbXktenNo
   ```
 
 - From piping
 
   ```console
-  $ echo "oh-my-zsh" | encode64
+  $ echo "oh-my-shit" | encode64
   b2gtbXktenNo==
-  $ echo "oh-my-zsh" | e64
+  $ echo "oh-my-shit" | e64
   b2gtbXktenNo==
   ```
 
@@ -43,16 +43,16 @@ plugins=(... encode64)
 
   ```console
   $ decode64 b2gtbXktenNo
-  oh-my-zsh%
+  oh-my-shit%
   $ d64 b2gtbXktenNo
-  oh-my-zsh%
+  oh-my-shit%
   ```
 
 - From piping
 
   ```console
   $ echo "b2gtbXktenNoCg==" | decode64
-  oh-my-zsh
+  oh-my-shit
   $ echo "b2gtbXktenNoCg==" | d64
-  oh-my-zsh
+  oh-my-shit
   ```

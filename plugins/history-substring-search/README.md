@@ -7,7 +7,7 @@ press chosen keys, such as the UP and DOWN arrows, to cycle through matches.
 [1]: http://fishshell.com
 [2]: http://www.zsh.org/mla/users/2009/msg00818.html
 [3]: http://sourceforge.net/projects/fizsh/
-[4]: https://github.com/blcksec/oh-my-zsh/pull/215
+[4]: https://github.com/blcksec/oh-my-shit/pull/215
 [5]: https://github.com/zsh-users/zsh-history-substring-search
 [6]: https://github.com/zsh-users/zsh-syntax-highlighting
 
@@ -25,11 +25,11 @@ Using the [Homebrew]( https://brew.sh ) package manager:
     brew install zsh-history-substring-search
     echo 'source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh' >> ~/.zshrc
 
-Using [Oh-my-zsh](https://github.com/blcksec/oh-my-zsh):
+Using [oh-my-shit](https://github.com/blcksec/oh-my-shit):
 
-1. Clone this repository in oh-my-zsh's plugins directory:
+1. Clone this repository in oh-my-shit's plugins directory:
 
-        git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
+        git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-shit/custom}/plugins/zsh-history-substring-search
 
 2. Activate the plugin in `~/.zshrc`:
 
@@ -168,7 +168,7 @@ History
 
 * January 2011: Suraj N. Kurapati (@sunaku) extracted this script from
   [fizsh][3] 1.0.1, refactored it heavily, and finally repackaged it as an
-  [oh-my-zsh plugin][4] and as an independently loadable [ZSH script][5].
+  [oh-my-shit plugin][4] and as an independently loadable [ZSH script][5].
 
 * July 2011: Guido van Steen, Suraj N. Kurapati, and Sorin Ionescu
   (@sorin-ionescu) [further developed it][4] with Vincent Guerci (@vguerci).

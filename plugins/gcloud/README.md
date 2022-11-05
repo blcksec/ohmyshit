@@ -14,7 +14,7 @@ listed [here](https://cloud.google.com/sdk/install).
 
 ## Plugin Options
 
-* Set `CLOUDSDK_HOME` in your `zshrc` file before you load oh-my-zsh if you have
+* Set `CLOUDSDK_HOME` in your `zshrc` file before you load oh-my-shit if you have
 your GCloud SDK installed in a non-standard location. The plugin will use this
 as the base for your SDK if it finds it set already.
 

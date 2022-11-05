@@ -4,11 +4,11 @@ This plugin defines the [z command](https://github.com/agkozak/zsh-z) that track
 
 ### Example
 
-Assume that you have previously visited directory `~/.oh-my-zsh/plugins`. From any folder in your command line, you can quickly access it by using a regex match to this folder:
+Assume that you have previously visited directory `~/.oh-my-shit/plugins`. From any folder in your command line, you can quickly access it by using a regex match to this folder:
 
 ```bash
 /usr/bin$ z plug  # Even 'z p' might suffice
-~/.oh-my-zsh/plugins$
+~/.oh-my-shit/plugins$
 ```
 
 ### Setup

@@ -25,7 +25,7 @@ To learn more, visit [ohmyz.sh](https://ohmyz.sh), follow [@ohmyzsh](https://twi
   - [Prerequisites](#prerequisites)
   - [Basic Installation](#basic-installation)
     - [Manual inspection](#manual-inspection)
-- [Using Oh My Zsh](#using-oh-my-zsh)
+- [Using Oh My Zsh](#using-oh-my-shit)
   - [Plugins](#plugins)
     - [Enabling Plugins](#enabling-plugins)
     - [Using Plugins](#using-plugins)
@@ -42,8 +42,8 @@ To learn more, visit [ohmyz.sh](https://ohmyz.sh), follow [@ohmyzsh](https://twi
   - [Custom Plugins and Themes](#custom-plugins-and-themes)
 - [Getting Updates](#getting-updates)
   - [Manual Updates](#manual-updates)
-- [Uninstalling Oh My Zsh](#uninstalling-oh-my-zsh)
-- [How do I contribute to Oh My Zsh?](#how-do-i-contribute-to-oh-my-zsh)
+- [Uninstalling Oh My Zsh](#uninstalling-oh-my-shit)
+- [How do I contribute to Oh My Zsh?](#how-do-i-contribute-to-oh-my-shit)
   - [Do NOT send us themes](#do-not-send-us-themes)
 - [Contributors](#contributors)
 - [Follow Us](#follow-us)
@@ -72,7 +72,7 @@ Oh My Zsh is installed by running one of the following commands in your terminal
 | **wget**  | `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`   |
 | **fetch** | `sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
 
-_Note that any previous `.zshrc` will be renamed to `.zshrc.pre-oh-my-zsh`. After installation, you can move the configuration you want to preserve into the new `.zshrc`._
+_Note that any previous `.zshrc` will be renamed to `.zshrc.pre-oh-my-shit`. After installation, you can move the configuration you want to preserve into the new `.zshrc`._
 
 #### Manual inspection
 
@@ -184,14 +184,14 @@ the installer accepts (these settings are also documented at the top of the inst
 
 #### Custom Directory
 
-The default location is `~/.oh-my-zsh` (hidden in your home directory, you can access it with `cd ~/.oh-my-zsh`)
+The default location is `~/.oh-my-shit` (hidden in your home directory, you can access it with `cd ~/.oh-my-shit`)
 
 If you'd like to change the install directory with the `ZSH` environment variable, either by running
 `export ZSH=/your/path` before installing, or by setting it before the end of the install pipeline
 like this:
 
 ```sh
-ZSH="$HOME/.dotfiles/oh-my-zsh" sh install.sh
+ZSH="$HOME/.dotfiles/oh-my-shit" sh install.sh
 ```
 
 #### Unattended install
@@ -224,7 +224,7 @@ The install script also accepts these variables to allow installation of a diffe
 For example:
 
 ```sh
-REPO=apjanke/oh-my-zsh BRANCH=edge sh install.sh
+REPO=apjanke/oh-my-shit BRANCH=edge sh install.sh
 ```
 
 #### Manual Installation
@@ -232,7 +232,7 @@ REPO=apjanke/oh-my-zsh BRANCH=edge sh install.sh
 ##### 1. Clone the repository <!-- omit in toc -->
 
 ```sh
-git clone https://github.com/blcksec/ohmyzsh.git ~/.oh-my-zsh
+git clone https://github.com/blcksec/ohmyzsh.git ~/.oh-my-shit
 ```
 
 ##### 2. _Optionally_, backup your existing `~/.zshrc` file <!-- omit in toc -->
@@ -246,7 +246,7 @@ cp ~/.zshrc ~/.zshrc.orig
 You can create a new zsh config file by copying the template that we have included for you.
 
 ```sh
-cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+cp ~/.oh-my-shit/templates/zshrc.zsh-template ~/.zshrc
 ```
 
 ##### 4. Change your default shell <!-- omit in toc -->
@@ -265,7 +265,7 @@ Once you open up a new terminal window, it should load zsh with Oh My Zsh's conf
 
 If you have any hiccups installing, here are a few common fixes.
 
-- You _might_ need to modify your `PATH` in `~/.zshrc` if you're not able to find some commands after switching to `oh-my-zsh`.
+- You _might_ need to modify your `PATH` in `~/.zshrc` if you're not able to find some commands after switching to `oh-my-shit`.
 - If you installed manually or changed the install location, check the `ZSH` environment variable in `~/.zshrc`.
 
 ### Custom Plugins and Themes
@@ -321,7 +321,7 @@ Magic! 🎉
 
 Oh My Zsh isn't for everyone. We'll miss you, but we want to make this an easy breakup.
 
-If you want to uninstall `oh-my-zsh`, just run `uninstall_oh_my_zsh` from the command-line. It will remove itself and revert your previous `bash` or `zsh` configuration.
+If you want to uninstall `oh-my-shit`, just run `uninstall_oh_my_zsh` from the command-line. It will remove itself and revert your previous `bash` or `zsh` configuration.
 
 ## How do I contribute to Oh My Zsh?
 
@@ -348,13 +348,13 @@ Thank you so much!
 We're on social media:
 
 - [@ohmyzsh](https://twitter.com/ohmyzsh) on Twitter. You should follow it.
-- [Facebook](https://www.facebook.com/Oh-My-Zsh-296616263819290/) poke us.
+- [Facebook](https://www.facebook.com/oh-my-shit-296616263819290/) poke us.
 - [Instagram](https://www.instagram.com/_ohmyzsh/) tag us in your post showing Oh My Zsh!
 - [Discord](https://discord.gg/ohmyzsh) to chat with us!
 
 ## Merchandise
 
-We have [stickers, shirts, and coffee mugs available](https://shop.planetargon.com/collections/oh-my-zsh?utm_source=github) for you to show off your love of Oh My Zsh. Again, you will become the talk of the town!
+We have [stickers, shirts, and coffee mugs available](https://shop.planetargon.com/collections/oh-my-shit?utm_source=github) for you to show off your love of Oh My Zsh. Again, you will become the talk of the town!
 
 ## License
 

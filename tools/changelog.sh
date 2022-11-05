@@ -386,7 +386,7 @@ function main {
     # If $since is not specified:
     # 1) try to find the version used before updating
     # 2) try to find the first version tag before $until
-    since=$(command git config --get oh-my-zsh.lastVersion 2>/dev/null) || \
+    since=$(command git config --get oh-my-shit.lastVersion 2>/dev/null) || \
     since=$(command git describe --abbrev=0 --tags "$until^" 2>/dev/null) || \
     unset since
   elif [[ "$since" = --all ]]; then

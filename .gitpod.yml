@@ -5,5 +5,5 @@ tasks:
   - init: |
       export EDITOR="command gp open -w" VISUAL="command gp open -w"
       cp -f /workspace/ohmyzsh/templates/zshrc.zsh-template ~/.zshrc
-      ln -sf /workspace/ohmyzsh ~/.oh-my-zsh
+      ln -sf /workspace/ohmyzsh ~/.oh-my-shit
     command: exec zsh

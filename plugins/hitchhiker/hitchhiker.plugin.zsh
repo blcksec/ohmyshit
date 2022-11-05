@@ -17,8 +17,8 @@ alias hitchhiker_cow="hitchhiker | cowthink"
 
   # If strfile is not found: some systems install strfile in /usr/sbin but it's not in $PATH
   if ! command -v strfile &>/dev/null && ! [[ -f /usr/sbin/strfile ]]; then
-    echo "[oh-my-zsh] hitchhiker depends on strfile, which is not installed" >&2
-    echo "[oh-my-zsh] strfile is often provided as part of the 'fortune' package" >&2
+    echo "[oh-my-shit] hitchhiker depends on strfile, which is not installed" >&2
+    echo "[oh-my-shit] strfile is often provided as part of the 'fortune' package" >&2
     return
   fi
 

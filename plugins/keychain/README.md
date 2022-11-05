@@ -14,7 +14,7 @@ plugins=(... keychain)
 
 ## Instructions
 
-**IMPORTANT: put these settings _before_ the line that sources oh-my-zsh**
+**IMPORTANT: put these settings _before_ the line that sources oh-my-shit**
 
 **To adjust the agents** that keychain manages, use the `agents` style as
 shown below. By default, only the `gpg` agent is managed.

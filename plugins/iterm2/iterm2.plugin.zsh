@@ -1,5 +1,5 @@
 #####################################################
-# iTerm2 plugin for oh-my-zsh                       #
+# iTerm2 plugin for oh-my-shit                       #
 # Author: Aviv Rosenberg (github.com/avivrosenberg) #
 #####################################################
 

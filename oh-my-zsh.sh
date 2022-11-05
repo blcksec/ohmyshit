@@ -49,7 +49,7 @@ fi
 
 # Make sure $ZSH_CACHE_DIR is writable, otherwise use a directory in $HOME
 if [[ ! -w "$ZSH_CACHE_DIR" ]]; then
-  ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/oh-my-zsh"
+  ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/oh-my-shit"
 fi
 
 # Create cache and completions dir and add to $fpath
@@ -90,7 +90,7 @@ for plugin ($plugins); do
   elif is_plugin "$ZSH" "$plugin"; then
     fpath=("$ZSH/plugins/$plugin" $fpath)
   else
-    echo "[oh-my-zsh] plugin '$plugin' not found"
+    echo "[oh-my-shit] plugin '$plugin' not found"
   fi
 done
 
@@ -145,7 +145,7 @@ unset zcompdump_revision zcompdump_fpath zcompdump_refresh
 # zcompile the completion dump file if the .zwc is older or missing.
 zrecompile -q -p "$ZSH_COMPDUMP" && command rm -f "$ZSH_COMPDUMP.zwc.old"
 
-# Load all of the config files in ~/oh-my-zsh that end in .zsh
+# Load all of the config files in ~/oh-my-shit that end in .zsh
 # TIP: Add files you don't want in git to .gitignore
 for config_file ("$ZSH"/lib/*.zsh); do
   custom_config_file="$ZSH_CUSTOM/lib/${config_file:t}"
@@ -185,6 +185,6 @@ if [[ -n "$ZSH_THEME" ]]; then
   elif is_theme "$ZSH/themes" "$ZSH_THEME"; then
     source "$ZSH/themes/$ZSH_THEME.zsh-theme"
   else
-    echo "[oh-my-zsh] theme '$ZSH_THEME' not found"
+    echo "[oh-my-shit] theme '$ZSH_THEME' not found"
   fi
 fi

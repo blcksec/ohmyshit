@@ -16,7 +16,7 @@
 # for example in your ~/.zshrc file, like this:
 # MLH_AT_SYMBOL=" at "
 # 
-# Settings *must* be set before sourcing oh-my-zsh.sh the .zshrc file.
+# Settings *must* be set before sourcing oh-my-shit.sh the .zshrc file.
 #
 # To easily discover colors and their codes, type `spectrum_ls` in the terminal
 

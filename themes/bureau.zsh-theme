@@ -1,4 +1,4 @@
-# oh-my-zsh Bureau Theme
+# oh-my-shit Bureau Theme
 
 ### NVM
 

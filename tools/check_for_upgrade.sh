@@ -36,10 +36,10 @@ function current_epoch() {
 
 function is_update_available() {
   local branch
-  branch=${"$(builtin cd -q "$ZSH"; git config --local oh-my-zsh.branch)":-master}
+  branch=${"$(builtin cd -q "$ZSH"; git config --local oh-my-shit.branch)":-master}
 
   local remote remote_url remote_repo
-  remote=${"$(builtin cd -q "$ZSH"; git config --local oh-my-zsh.remote)":-origin}
+  remote=${"$(builtin cd -q "$ZSH"; git config --local oh-my-shit.remote)":-origin}
   remote_url=$(builtin cd -q "$ZSH"; git config remote.$remote.url)
 
   local repo
@@ -171,7 +171,7 @@ function has_typed_input() {
 
   # Test if Oh My Zsh directory is a git repository
   if ! (builtin cd -q "$ZSH" && LANG= git rev-parse &>/dev/null); then
-    echo >&2 "[oh-my-zsh] Can't update: not a git repository."
+    echo >&2 "[oh-my-shit] Can't update: not a git repository."
     return
   fi
 
@@ -183,7 +183,7 @@ function has_typed_input() {
   # If in reminder mode or user has typed input, show reminder and exit
   if [[ "$update_mode" = reminder ]] || has_typed_input; then
     printf '\r\e[0K' # move cursor to first column and clear whole line
-    echo "[oh-my-zsh] It's time to update! You can do that by running \`omz update\`"
+    echo "[oh-my-shit] It's time to update! You can do that by running \`omz update\`"
     return 0
   fi
 
@@ -195,13 +195,13 @@ function has_typed_input() {
 
   # Ask for confirmation and only update on 'y', 'Y' or Enter
   # Otherwise just show a reminder for how to update
-  echo -n "[oh-my-zsh] Would you like to update? [Y/n] "
+  echo -n "[oh-my-shit] Would you like to update? [Y/n] "
   read -r -k 1 option
   [[ "$option" = $'\n' ]] || echo
   case "$option" in
     [yY$'\n']) update_ohmyzsh ;;
     [nN]) update_last_updated_file ;&
-    *) echo "[oh-my-zsh] You can update manually by running \`omz update\`" ;;
+    *) echo "[oh-my-shit] You can update manually by running \`omz update\`" ;;
   esac
 }
 

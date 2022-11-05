@@ -16,7 +16,7 @@
 #   ZSH=~/.zsh sh install.sh
 #
 # Respects the following environment variables:
-#   ZSH     - path to the Oh My Zsh repository folder (default: $HOME/.oh-my-zsh)
+#   ZSH     - path to the Oh My Zsh repository folder (default: $HOME/.oh-my-shit)
 #   REPO    - name of the GitHub repo to install from (default: ohmyzsh/ohmyzsh)
 #   REMOTE  - full remote URL of the git repo to install (default: GitHub via HTTPS)
 #   BRANCH  - branch to check out immediately after install (default: master)
@@ -54,7 +54,7 @@ HOME="${HOME:-$(eval echo ~$USER)}"
 custom_zsh=${ZSH:+yes}
 
 # Default settings
-ZSH="${ZSH:-$HOME/.oh-my-zsh}"
+ZSH="${ZSH:-$HOME/.oh-my-shit}"
 REPO=${REPO:-ohmyzsh/ohmyzsh}
 REMOTE=${REMOTE:-https://github.com/${REPO}.git}
 BRANCH=${BRANCH:-master}
@@ -286,8 +286,8 @@ setup_ohmyzsh() {
   && git config fsck.zeroPaddedFilemode ignore \
   && git config fetch.fsck.zeroPaddedFilemode ignore \
   && git config receive.fsck.zeroPaddedFilemode ignore \
-  && git config oh-my-zsh.remote origin \
-  && git config oh-my-zsh.branch "$BRANCH" \
+  && git config oh-my-shit.remote origin \
+  && git config oh-my-shit.branch "$BRANCH" \
   && git remote add origin "$REMOTE" \
   && git fetch --depth=1 origin \
   && git checkout -b "$BRANCH" "origin/$BRANCH" || {
@@ -295,7 +295,7 @@ setup_ohmyzsh() {
       cd -
       rm -rf "$ZSH" 2>/dev/null
     }
-    fmt_error "git clone of oh-my-zsh repo failed"
+    fmt_error "git clone of oh-my-shit repo failed"
     exit 1
   }
   # Exit installation directory
@@ -305,13 +305,13 @@ setup_ohmyzsh() {
 }
 
 setup_zshrc() {
-  # Keep most recent old .zshrc at .zshrc.pre-oh-my-zsh, and older ones
+  # Keep most recent old .zshrc at .zshrc.pre-oh-my-shit, and older ones
   # with datestamp of installation that moved them aside, so we never actually
   # destroy a user's original zshrc
   echo "${FMT_BLUE}Looking for an existing zsh config...${FMT_RESET}"
 
   # Must use this exact name so uninstall.sh can find it
-  OLD_ZSHRC=~/.zshrc.pre-oh-my-zsh
+  OLD_ZSHRC=~/.zshrc.pre-oh-my-shit
   if [ -f ~/.zshrc ] || [ -h ~/.zshrc ]; then
     # Skip this if the user doesn't want to replace an existing .zshrc
     if [ "$KEEP_ZSHRC" = yes ]; then
@@ -327,7 +327,7 @@ setup_zshrc() {
       fi
       mv "$OLD_ZSHRC" "${OLD_OLD_ZSHRC}"
 
-      echo "${FMT_YELLOW}Found old ~/.zshrc.pre-oh-my-zsh." \
+      echo "${FMT_YELLOW}Found old ~/.zshrc.pre-oh-my-shit." \
         "${FMT_GREEN}Backing up to ${OLD_OLD_ZSHRC}${FMT_RESET}"
     fi
     echo "${FMT_YELLOW}Found ~/.zshrc.${FMT_RESET} ${FMT_GREEN}Backing up to ${OLD_ZSHRC}${FMT_RESET}"
@@ -407,9 +407,9 @@ EOF
 
   # We're going to change the default shell, so back up the current one
   if [ -n "$SHELL" ]; then
-    echo "$SHELL" > ~/.shell.pre-oh-my-zsh
+    echo "$SHELL" > ~/.shell.pre-oh-my-shit
   else
-    grep "^$USER:" /etc/passwd | awk -F: '{print $7}' > ~/.shell.pre-oh-my-zsh
+    grep "^$USER:" /etc/passwd | awk -F: '{print $7}' > ~/.shell.pre-oh-my-shit
   fi
 
   echo "Changing your shell to $zsh..."
@@ -456,7 +456,7 @@ print_success() {
   printf '\n'
   printf '%s\n' "• Follow us on Twitter: $(fmt_link @ohmyzsh https://twitter.com/ohmyzsh)"
   printf '%s\n' "• Join our Discord community: $(fmt_link "Discord server" https://discord.gg/ohmyzsh)"
-  printf '%s\n' "• Get stickers, t-shirts, coffee mugs and more: $(fmt_link "Planet Argon Shop" https://shop.planetargon.com/collections/oh-my-zsh)"
+  printf '%s\n' "• Get stickers, t-shirts, coffee mugs and more: $(fmt_link "Planet Argon Shop" https://shop.planetargon.com/collections/oh-my-shit)"
   printf '%s\n' $FMT_RESET
 }
 

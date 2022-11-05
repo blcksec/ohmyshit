@@ -45,7 +45,7 @@ VSCODE=code-insiders
 
 plugins=(... vscode)
 
-source $ZSH/oh-my-zsh.sh
+source $ZSH/oh-my-shit.sh
 ```
 
 ## Common aliases

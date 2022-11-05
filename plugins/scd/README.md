@@ -13,7 +13,7 @@ directory aliases, which appear as named directories in zsh session.
 
 ## INSTALLATION NOTES
 
-Besides oh-my-zsh, `scd` can be used with *bash*, *dash* or *tcsh*
+Besides oh-my-shit, `scd` can be used with *bash*, *dash* or *tcsh*
 shells and is also available as Vim plugin
 [scd.vim](https://github.com/pavoljuhas/scd.vim) and
 [IPython](https://ipython.org) extension.  For installation details, see

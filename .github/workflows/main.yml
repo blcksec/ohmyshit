@@ -35,7 +35,7 @@ jobs:
         run: sh ./tools/install.sh
       - name: Check syntax
         run: |
-          for file in ./oh-my-zsh.sh \
+          for file in ./oh-my-shit.sh \
                       ./lib/*.zsh \
                       ./plugins/*/*.plugin.zsh \
                       ./plugins/*/_* \

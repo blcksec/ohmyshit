@@ -13,7 +13,7 @@ function git_prompt_info() {
   # If we are on a folder not tracked by git, get out.
   # Otherwise, check for hide-info at global and local repository level
   if ! __git_prompt_git rev-parse --git-dir &> /dev/null \
-     || [[ "$(__git_prompt_git config --get oh-my-zsh.hide-info 2>/dev/null)" == 1 ]]; then
+     || [[ "$(__git_prompt_git config --get oh-my-shit.hide-info 2>/dev/null)" == 1 ]]; then
     return 0
   fi
 
@@ -37,7 +37,7 @@ function parse_git_dirty() {
   local STATUS
   local -a FLAGS
   FLAGS=('--porcelain')
-  if [[ "$(__git_prompt_git config --get oh-my-zsh.hide-dirty)" != "1" ]]; then
+  if [[ "$(__git_prompt_git config --get oh-my-shit.hide-dirty)" != "1" ]]; then
     if [[ "${DISABLE_UNTRACKED_FILES_DIRTY:-}" == "true" ]]; then
       FLAGS+='--untracked-files=no'
     fi
@@ -161,7 +161,7 @@ function git_prompt_long_sha() {
 }
 
 function git_prompt_status() {
-  [[ "$(__git_prompt_git config --get oh-my-zsh.hide-status 2>/dev/null)" = 1 ]] && return
+  [[ "$(__git_prompt_git config --get oh-my-shit.hide-status 2>/dev/null)" = 1 ]] && return
 
   # Maps a git status prefix to an internal constant
   # This cannot use the prompt constants, as they may be empty

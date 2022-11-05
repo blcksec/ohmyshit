@@ -1,6 +1,6 @@
 # diagnostics.zsh
 #
-# Diagnostic and debugging support for oh-my-zsh
+# Diagnostic and debugging support for oh-my-shit
 
 # omz_diagnostic_dump()
 #
@@ -14,7 +14,7 @@
 # and probably in non-back-compatible ways.
 #
 # Outputs a bunch of information about the state and configuration of
-# oh-my-zsh, zsh, and the user's system. This is intended to provide a
+# oh-my-shit, zsh, and the user's system. This is intended to provide a
 # bunch of context for diagnosing your own or a third party's problems, and to
 # be suitable for posting to public bug reports.
 #
@@ -25,7 +25,7 @@
 # tarballs that contain copies of the config and customization files instead of
 # catting them all in to one file.
 #
-# This is intended to be widely portable, and run anywhere that oh-my-zsh does.
+# This is intended to be widely portable, and run anywhere that oh-my-shit does.
 # Feel free to report any portability issues as bugs.
 #
 # This is written in a defensive style so it still works (and can detect) cases when
@@ -102,7 +102,7 @@ function omz_diagnostic_dump() {
 function _omz_diag_dump_one_big_text() {
   local program programs progfile md5
 
-  builtin echo oh-my-zsh diagnostic dump
+  builtin echo oh-my-shit diagnostic dump
   builtin echo
   builtin echo $outfile
   builtin echo 
@@ -186,12 +186,12 @@ function _omz_diag_dump_one_big_text() {
   command ls -lad $fpath
   builtin echo
 
-  # Oh-my-zsh installation
-  builtin echo oh-my-zsh installation:
+  # oh-my-shit installation
+  builtin echo oh-my-shit installation:
   command ls -ld ~/.z*
   command ls -ld ~/.oh*
   builtin echo
-  builtin echo oh-my-zsh git state:
+  builtin echo oh-my-shit git state:
   (builtin cd $ZSH && builtin echo "HEAD: $(git rev-parse HEAD)" && git remote -v && git status | command grep "[^[:space:]]")
   if [[ $verbose -ge 1 ]]; then
     (builtin cd $ZSH && git reflog --date=default | command grep pull)
@@ -202,7 +202,7 @@ function _omz_diag_dump_one_big_text() {
     if [[ -h $custom_dir ]]; then
       custom_dir=$(builtin cd $custom_dir && pwd -P)
     fi
-    builtin echo "oh-my-zsh custom dir:"
+    builtin echo "oh-my-shit custom dir:"
     builtin echo "   $ZSH_CUSTOM ($custom_dir)"
     (builtin cd ${custom_dir:h} && command find ${custom_dir:t} -name .git -prune -o -print)
     builtin echo
@@ -226,7 +226,7 @@ function _omz_diag_dump_one_big_text() {
   # to help with diagnosing behavior differences between bash and zsh
   cfgfiles=( /etc/zshenv /etc/zprofile /etc/zshrc /etc/zlogin /etc/zlogout 
     $zdotdir/.zshenv $zdotdir/.zprofile $zdotdir/.zshrc $zdotdir/.zlogin $zdotdir/.zlogout
-    ~/.zsh.pre-oh-my-zsh
+    ~/.zsh.pre-oh-my-shit
     /etc/bashrc /etc/profile ~/.bashrc ~/.profile ~/.bash_profile ~/.bash_logout )
   command ls -lad $cfgfiles 2>&1
   builtin echo

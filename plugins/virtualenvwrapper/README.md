@@ -34,5 +34,5 @@ We can disable this behaviour by setting `DISABLE_VENV_CD=1` before Oh My Zsh is
 ```zsh
 DISABLE_VENV_CD=1
 plugins=(... virtualenvwrapper)
-source $ZSH/oh-my-zsh.sh
+source $ZSH/oh-my-shit.sh
 ```

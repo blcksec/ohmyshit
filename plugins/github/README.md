@@ -36,7 +36,7 @@ See `man hub` for more details.
 
 ### Homebrew installation note
 
-If you have installed `hub` using Homebrew, its completions may not be on your `$FPATH` if you are using the system `zsh`. Homebrew installs `zsh` completion definitions to `/usr/local/share/zsh/site-functions`, which will be on `$FPATH` for the Homebrew-installed `zsh`, but not for the system `zsh`. If you want it to work with the system `zsh`, add this to your `~/.zshrc` before it sources `oh-my-zsh.sh`.
+If you have installed `hub` using Homebrew, its completions may not be on your `$FPATH` if you are using the system `zsh`. Homebrew installs `zsh` completion definitions to `/usr/local/share/zsh/site-functions`, which will be on `$FPATH` for the Homebrew-installed `zsh`, but not for the system `zsh`. If you want it to work with the system `zsh`, add this to your `~/.zshrc` before it sources `oh-my-shit.sh`.
 
 ```zsh
 if (( ! ${fpath[(I)/usr/local/share/zsh/site-functions]} )); then

@@ -11,7 +11,7 @@ plugins=(... ssh-agent)
 
 ## Settings
 
-**IMPORTANT: put these settings _before_ the line that sources oh-my-zsh**
+**IMPORTANT: put these settings _before_ the line that sources oh-my-shit**
 
 ### `agent-forwarding`
 

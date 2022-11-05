@@ -10,9 +10,9 @@ Because `cd` seems inefficient when the folder is frequently visited or has a lo
 
 ## Setup
 
-### [oh-my-zsh](https://github.com/blcksec/ohmyzsh)
+### [oh-my-shit](https://github.com/blcksec/ohmyzsh)
 
-`wd` comes bundled with oh-my-zsh!
+`wd` comes bundled with oh-my-shit!
 
 Just add the plugin in your `.zshrc` file:
 
@@ -102,7 +102,7 @@ sudo chmod 644 /usr/share/man/man1/wd.1
 
 ## Completion
 
-If you're NOT using [oh-my-zsh](https://github.com/blcksec/oh-my-zsh) and you want to utilize the zsh-completion feature, you will also need to add the path to your `wd` installation (`~/bin/wd` if you used the automatic installer) to your `fpath`.
+If you're NOT using [oh-my-shit](https://github.com/blcksec/oh-my-shit) and you want to utilize the zsh-completion feature, you will also need to add the path to your `wd` installation (`~/bin/wd` if you used the automatic installer) to your `fpath`.
 E.g. in your `~/.zshrc`:
 
 ```zsh
@@ -150,7 +150,7 @@ wd ...
 ```
 
 This is a wrapper for the zsh's `dirs` function.  
-_You might need to add `setopt AUTO_PUSHD` to your `.zshrc` if you are not using [oh-my-zsh](https://github.com/blcksec/ohmyzsh)._
+_You might need to add `setopt AUTO_PUSHD` to your `.zshrc` if you are not using [oh-my-shit](https://github.com/blcksec/ohmyzsh)._
 
 * Remove warp point:
 

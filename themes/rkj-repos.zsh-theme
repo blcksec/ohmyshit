@@ -20,7 +20,7 @@ ZSH_THEME_GIT_PROMPT_SHA_BEFORE=" %{$fg[blue]%}"
 ZSH_THEME_GIT_PROMPT_SHA_AFTER="%{$reset_color%}"
 
 function mygit() {
-  if [[ "$(git config --get oh-my-zsh.hide-status)" != "1" ]]; then
+  if [[ "$(git config --get oh-my-shit.hide-status)" != "1" ]]; then
     ref=$(command git symbolic-ref HEAD 2> /dev/null) || \
     ref=$(command git rev-parse --short HEAD 2> /dev/null) || return
     echo "$ZSH_THEME_GIT_PROMPT_PREFIX${ref#refs/heads/}$(git_prompt_short_sha)$(git_prompt_status)%{$fg_bold[blue]%}$ZSH_THEME_GIT_PROMPT_SUFFIX "

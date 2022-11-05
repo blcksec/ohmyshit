@@ -1,6 +1,6 @@
 # ------------------------------------------------------------------------------
 #          FILE:  sbt.plugin.zsh
-#   DESCRIPTION:  oh-my-zsh plugin file.
+#   DESCRIPTION:  oh-my-shit plugin file.
 #        AUTHOR:  Mirko Caserta (mirko.caserta@gmail.com)
 #       VERSION:  1.0.2
 # ------------------------------------------------------------------------------

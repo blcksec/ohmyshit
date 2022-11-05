@@ -1,4 +1,4 @@
-#---oh-my-zsh plugin : task Autocomplete for Jake tool---
+#---oh-my-shit plugin : task Autocomplete for Jake tool---
 # Jake : https://github.com/mde/jake
 # Warning : Jakefile should have the right case : Jakefile or jakefile
 # Tested on : MacOSX 10.7 (Lion), Ubuntu 11.10

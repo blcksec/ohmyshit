@@ -29,29 +29,29 @@ Say you opened these directories on the terminal:
 ```console
 ~$ cd Projects
 ~/Projects$ cd Hacktoberfest
-~/Projects/Hacktoberfest$ cd oh-my-zsh
-~/Projects/Hacktoberfest/oh-my-zsh$ dirs -v
-0       ~/Projects/Hacktoberfest/oh-my-zsh
+~/Projects/Hacktoberfest$ cd oh-my-shit
+~/Projects/Hacktoberfest/oh-my-shit$ dirs -v
+0       ~/Projects/Hacktoberfest/oh-my-shit
 1       ~/Projects/Hacktoberfest
 2       ~/Projects
 3       ~
 ```
 
-By pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Left</kbd>, the current working directory or `$CWD` will be from `oh-my-zsh` to `Hacktoberfest`. Press it again and it will be at `Projects`.
+By pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Left</kbd>, the current working directory or `$CWD` will be from `oh-my-shit` to `Hacktoberfest`. Press it again and it will be at `Projects`.
 
-And by pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Right</kbd>, the `$CWD` will be from `Projects` to `Hacktoberfest`. Press it again and it will be at `oh-my-zsh`.
+And by pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Right</kbd>, the `$CWD` will be from `Projects` to `Hacktoberfest`. Press it again and it will be at `oh-my-shit`.
 
 Here's a example history table with the same accessed directories like above:
 
 | Current `$CWD`  | Key press                                             | New `$CWD`      |
 | --------------- | ----------------------------------------------------- | --------------- |
-| `oh-my-zsh`     | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Left</kbd>  | `Hacktoberfest` |
+| `oh-my-shit`     | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Left</kbd>  | `Hacktoberfest` |
 | `Hacktoberfest` | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Left</kbd>  | `Projects`      |
 | `Projects`      | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Left</kbd>  | `~`             |
 | `~`             | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Right</kbd> | `Projects`      |
 | `Projects`      | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Right</kbd> | `Hacktoberfest` |
-| `Hacktoberfest` | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Right</kbd> | `oh-my-zsh`     |
-| `oh-my-zsh`     | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Right</kbd> | `~`             |
+| `Hacktoberfest` | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Right</kbd> | `oh-my-shit`     |
+| `oh-my-shit`     | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Right</kbd> | `~`             |
 
 Note the last traversal, when pressing <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Right</kbd> on a last known `$CWD`, it will change back to the first known `$CWD`, which in the example is `~`.
 

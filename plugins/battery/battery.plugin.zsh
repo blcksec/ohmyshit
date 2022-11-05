@@ -1,5 +1,5 @@
 ###########################################
-# Battery plugin for oh-my-zsh            #
+# Battery plugin for oh-my-shit            #
 # Original Author: Peter hoeg (peterhoeg) #
 # Email: peter@speartail.com              #
 ###########################################

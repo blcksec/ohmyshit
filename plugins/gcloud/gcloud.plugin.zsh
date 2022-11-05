@@ -1,5 +1,5 @@
 #####################################################
-# gcloud plugin for oh-my-zsh                       #
+# gcloud plugin for oh-my-shit                       #
 # Author: Ian Chesal (github.com/ianchesal)         #
 #####################################################
 

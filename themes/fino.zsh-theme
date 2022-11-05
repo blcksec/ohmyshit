@@ -5,7 +5,7 @@
 
 # You can set your computer name in the ~/.box-name file if you want.
 
-# Borrowing shamelessly from these oh-my-zsh themes:
+# Borrowing shamelessly from these oh-my-shit themes:
 #   bira
 #   blcksec
 #

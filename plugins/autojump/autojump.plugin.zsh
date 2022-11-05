@@ -32,6 +32,6 @@ if (( ! found && $+commands[brew] )); then
   fi
 fi
 
-(( ! found )) && echo '[oh-my-zsh] autojump not found. Please install it first.'
+(( ! found )) && echo '[oh-my-shit] autojump not found. Please install it first.'
 
 unset autojump_paths file found

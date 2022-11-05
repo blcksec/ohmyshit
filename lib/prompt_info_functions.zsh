@@ -23,7 +23,7 @@ function chruby_prompt_info \
   return 1
 }
 
-# oh-my-zsh supports an rvm prompt by default
+# oh-my-shit supports an rvm prompt by default
 # get the name of the rvm ruby version
 function rvm_prompt_info() {
   [ -f $HOME/.rvm/bin/rvm-prompt ] || return 1

@@ -164,14 +164,14 @@ fi
 # Update upstream remote to ohmyzsh org
 git remote -v | while read remote url extra; do
   case "$url" in
-  https://github.com/blcksec/oh-my-zsh(|.git))
+  https://github.com/blcksec/oh-my-shit(|.git))
     git remote set-url "$remote" "https://github.com/blcksec/ohmyzsh.git"
     break ;;
-  git@github.com:blcksec/oh-my-zsh(|.git))
+  git@github.com:blcksec/oh-my-shit(|.git))
     git remote set-url "$remote" "git@github.com:ohmyzsh/ohmyzsh.git"
     break ;;
   # Update out-of-date "unauthenticated git protocol on port 9418" to https
-  git://github.com/blcksec/oh-my-zsh(|.git))
+  git://github.com/blcksec/oh-my-shit(|.git))
     git remote set-url "$remote" "https://github.com/blcksec/ohmyzsh.git"
     break ;;
   esac
@@ -192,8 +192,8 @@ git config rebase.autoStash true
 local ret=0
 
 # repository settings
-remote=${"$(git config --local oh-my-zsh.remote)":-origin}
-branch=${"$(git config --local oh-my-zsh.branch)":-master}
+remote=${"$(git config --local oh-my-shit.remote)":-origin}
+branch=${"$(git config --local oh-my-shit.branch)":-master}
 
 # repository state
 last_head=$(git symbolic-ref --quiet --short HEAD || git rev-parse HEAD)
@@ -212,7 +212,7 @@ if LANG= git pull --quiet --rebase $remote $branch; then
     message="Hooray! Oh My Zsh has been updated!"
 
     # Save the commit prior to updating
-    git config oh-my-zsh.lastVersion "$last_commit"
+    git config oh-my-shit.lastVersion "$last_commit"
 
     # Print changelog to the terminal
     if [[ "$1" = --interactive ]]; then
@@ -232,7 +232,7 @@ if LANG= git pull --quiet --rebase $remote $branch; then
   printf "${BLUE}%s${RESET}\n\n" "$message"
   printf "${BLUE}${BOLD}%s %s${RESET}\n" "To keep up with the latest news and updates, follow us on Twitter:" "$(fmt_link @ohmyzsh https://twitter.com/ohmyzsh)"
   printf "${BLUE}${BOLD}%s %s${RESET}\n" "Want to get involved in the community? Join our Discord:" "$(fmt_link "Discord server" https://discord.gg/ohmyzsh)"
-  printf "${BLUE}${BOLD}%s %s${RESET}\n" "Get your Oh My Zsh swag at:" "$(fmt_link "Planet Argon Shop" https://shop.planetargon.com/collections/oh-my-zsh)"
+  printf "${BLUE}${BOLD}%s %s${RESET}\n" "Get your Oh My Zsh swag at:" "$(fmt_link "Planet Argon Shop" https://shop.planetargon.com/collections/oh-my-shit)"
 else
   ret=$?
   printf "${RED}%s${RESET}\n" 'There was an error updating. Try again later?'

@@ -13,13 +13,13 @@ function {
             return
         fi
     done
-    print "[oh-my-zsh] virtualenvwrapper plugin: Cannot find virtualenvwrapper.sh.\n"\
+    print "[oh-my-shit] virtualenvwrapper plugin: Cannot find virtualenvwrapper.sh.\n"\
           "Please install with \`pip install virtualenvwrapper\`" >&2
     return 1
 }
 
 if [[ $? -eq 0 ]] && ! type workon &>/dev/null; then
-  print "[oh-my-zsh] virtualenvwrapper plugin: shell function 'workon' not defined.\n"\
+  print "[oh-my-shit] virtualenvwrapper plugin: shell function 'workon' not defined.\n"\
         "Please check ${virtualenvwrapper}" >&2
   return
 fi

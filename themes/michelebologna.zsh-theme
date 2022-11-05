@@ -1,7 +1,7 @@
 # Michele Bologna's theme
 # https://www.michelebologna.net
 #
-# This a theme for oh-my-zsh. Features a colored prompt with:
+# This a theme for oh-my-shit. Features a colored prompt with:
 # * username@host: [jobs] [git] workdir %
 # * hostname color is based on hostname characters. When using as root, the
 # prompt shows only the hostname in red color.

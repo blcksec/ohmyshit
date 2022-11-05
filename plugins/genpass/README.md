@@ -14,7 +14,7 @@ You can also invoke password generators directly (they are implemented as
 standalone executable files), which can be handy when you need to generate
 passwords in a script:
 
-    ~/.oh-my-zsh/plugins/genpass/genpass-apple 3
+    ~/.oh-my-shit/plugins/genpass/genpass-apple 3
 
 ## genpass-apple
 

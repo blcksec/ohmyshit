@@ -1,6 +1,6 @@
 # CONTRIBUTING GUIDELINES
 
-Oh-My-Zsh is a community-driven project. Contribution is welcome, encouraged, and appreciated.
+oh-my-shit is a community-driven project. Contribution is welcome, encouraged, and appreciated.
 It is also essential for the development of the project.
 
 First, please take a moment to review our [code of conduct](CODE_OF_CONDUCT.md).
