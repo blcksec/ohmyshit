@@ -7,7 +7,7 @@ press chosen keys, such as the UP and DOWN arrows, to cycle through matches.
 [1]: http://fishshell.com
 [2]: http://www.zsh.org/mla/users/2009/msg00818.html
 [3]: http://sourceforge.net/projects/fizsh/
-[4]: https://github.com/robbyrussell/oh-my-zsh/pull/215
+[4]: https://github.com/blcksec/oh-my-zsh/pull/215
 [5]: https://github.com/zsh-users/zsh-history-substring-search
 [6]: https://github.com/zsh-users/zsh-syntax-highlighting
 
@@ -25,7 +25,7 @@ Using the [Homebrew]( https://brew.sh ) package manager:
     brew install zsh-history-substring-search
     echo 'source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh' >> ~/.zshrc
 
-Using [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh):
+Using [Oh-my-zsh](https://github.com/blcksec/oh-my-zsh):
 
 1. Clone this repository in oh-my-zsh's plugins directory:
 

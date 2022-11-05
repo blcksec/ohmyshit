@@ -28,13 +28,13 @@ plugins=(... branch)
 ## Usage
 
 Copy your theme to `$ZSH_CUSTOM/themes/` and modify it to add `$(branch_prompt_info)` in your prompt.
-This example is for the `robbyrussell` theme:
+This example is for the `blcksec` theme:
 
 ```diff
-diff --git a/themes/robbyrussell.zsh-theme b/themes/robbyrussell.zsh-theme
+diff --git a/themes/blcksec.zsh-theme b/themes/blcksec.zsh-theme
 index 2fd5f2cd..9d89a464 100644
---- a/themes/robbyrussell.zsh-theme
-+++ b/themes/robbyrussell.zsh-theme
+--- a/themes/blcksec.zsh-theme
++++ b/themes/blcksec.zsh-theme
 @@ -1,5 +1,5 @@
  PROMPT="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
 -PROMPT+=' %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'

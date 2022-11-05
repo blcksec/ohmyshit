@@ -102,7 +102,7 @@ sudo chmod 644 /usr/share/man/man1/wd.1
 
 ## Completion
 
-If you're NOT using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) and you want to utilize the zsh-completion feature, you will also need to add the path to your `wd` installation (`~/bin/wd` if you used the automatic installer) to your `fpath`.
+If you're NOT using [oh-my-zsh](https://github.com/blcksec/oh-my-zsh) and you want to utilize the zsh-completion feature, you will also need to add the path to your `wd` installation (`~/bin/wd` if you used the automatic installer) to your `fpath`.
 E.g. in your `~/.zshrc`:
 
 ```zsh

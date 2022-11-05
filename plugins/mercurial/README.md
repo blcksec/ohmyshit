@@ -42,7 +42,7 @@ plugins=(... mercurial)
   This can be done by putting a custom version of the theme in `$ZSH_CUSTOM` or by changing `$PROMPT` in
   `.zshrc` after loading the theme.
 
-  For example, for the `robbyrussell` theme you need to modify `$PROMPT` var by adding `$(hg_prompt_info)`
+  For example, for the `blcksec` theme you need to modify `$PROMPT` var by adding `$(hg_prompt_info)`
   after `$(git_prompt_info)`, so it looks like this:
 
   ```zsh

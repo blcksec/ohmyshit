@@ -130,7 +130,7 @@ _Robby's theme is the default one. It's not the fanciest one. It's not the simpl
 Once you find a theme that you'd like to use, you will need to edit the `~/.zshrc` file. You'll see an environment variable (all caps) in there that looks like:
 
 ```sh
-ZSH_THEME="robbyrussell"
+ZSH_THEME="blcksec"
 ```
 
 To use a different theme, simply change the value to match the name of your desired theme. For example:
@@ -158,7 +158,7 @@ And if you want to pick random theme from a list of your favorite themes:
 
 ```sh
 ZSH_THEME_RANDOM_CANDIDATES=(
-  "robbyrussell"
+  "blcksec"
   "agnoster"
 )
 ```
