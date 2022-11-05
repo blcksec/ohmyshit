@@ -21,7 +21,7 @@ jobs:
   tests:
     name: Run tests
     runs-on: ${{ matrix.os }}
-    if: github.repository == 'blcksec/ohmyzshit'
+    if: github.repository == 'blcksec/ohmyshit'
     strategy:
       matrix:
         os: [ubuntu-latest, macos-latest]
