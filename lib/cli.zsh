@@ -555,7 +555,7 @@ function _omz::pr::test {
     command git remote -v | while read remote url _; do
       case "$url" in
       https://github.com/blcksec/ohmyzsh(|.git)) found=1; break ;;
-      git@github.com:ohmyzsh/ohmyzsh(|.git)) found=1; break ;;
+      git@github.com:blcksec/ohmyzshit(|.git)) found=1; break ;;
       esac
     done
 

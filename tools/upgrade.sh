@@ -168,7 +168,7 @@ git remote -v | while read remote url extra; do
     git remote set-url "$remote" "https://github.com/blcksec/ohmyzsh.git"
     break ;;
   git@github.com:blcksec/oh-my-shit(|.git))
-    git remote set-url "$remote" "git@github.com:ohmyzsh/ohmyzsh.git"
+    git remote set-url "$remote" "git@github.com:blcksec/ohmyzshit.git"
     break ;;
   # Update out-of-date "unauthenticated git protocol on port 9418" to https
   git://github.com/blcksec/oh-my-shit(|.git))
