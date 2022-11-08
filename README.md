@@ -68,9 +68,9 @@ Oh My Shit is installed by running one of the following commands in your termina
 
 | Method    | Command                                                                                           |
 | :-------- | :------------------------------------------------------------------------------------------------ |
-| **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/blcksec/ohmyShitit/master/tools/install.sh)"` |
-| **wget**  | `sh -c "$(wget -O- https://raw.githubusercontent.com/blcksec/ohmyShitit/master/tools/install.sh)"`   |
-| **fetch** | `sh -c "$(fetch -o - https://raw.githubusercontent.com/blcksec/ohmyShitit/master/tools/install.sh)"` |
+| **curl**  | `sh -c "$(curl -fsSL https://raw.githubusercontent.com/blcksec/ohmyshit/master/tools/install.sh)"` |
+| **wget**  | `sh -c "$(wget -O- https://raw.githubusercontent.com/blcksec/ohmyshit/master/tools/install.sh)"`   |
+| **fetch** | `sh -c "$(fetch -o - https://raw.githubusercontent.com/blcksec/ohmyshit/master/tools/install.sh)"` |
 
 _Note that any previous `.Shitrc` will be renamed to `.Shitrc.pre-oh-my-shit`. After installation, you can move the configuration you want to preserve into the new `.Shitrc`._
 
